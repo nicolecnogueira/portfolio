@@ -11,7 +11,6 @@ function Header() {
     { title: 'GRAFIC DESIGN', url: '#grafic-design' }
   ];
 
-  // A lista de fontes. Vamos usar o nome 'fonts' consistentemente.
   const fonts = [
     'Arial, sans-serif',
     '"Times New Roman", Times, serif',
