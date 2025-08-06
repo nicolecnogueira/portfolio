@@ -15,7 +15,6 @@
 
 .gridObras {
   display: grid;
-  /* Cria um grid responsivo: 3 colunas em telas grandes, 2 em médias, 1 em pequenas */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 5px;
 }
