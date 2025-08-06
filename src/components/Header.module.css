@@ -4,6 +4,7 @@
   align-items: center;
   padding: 20px 40px;
   background-color: black;
+  height: 40px;
 }
 
 .logo a {
@@ -32,9 +33,33 @@
 }
 
 .navigation a:hover {
-  color: #d034b9;
+  color: #E11DAA;
 }
 
 .navigation a:hover::after {
   width: 100%;
+}
+
+.hamburgerMenu {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  .navigation {
+    display: none;
+  }
+  
+  .hamburgerMenu {
+    display: flex;
+  }
 }

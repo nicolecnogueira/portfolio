@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 import {Link} from 'react-router-dom';
+import Drawer from './Drawer';
 
 function Header() {
   const navLinks = [
@@ -21,6 +22,12 @@ function Header() {
   ];
 
   const [fontIndex, setFontIndex] = useState(0);
+
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -48,6 +55,14 @@ function Header() {
           ))}
         </ul>
       </nav>
+
+      <div className={styles.hamburgerMenu} onClick={toggleDrawer}>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+      </div>
+      {isDrawerOpen && <Drawer navLinks={navLinks} onClose={toggleDrawer} />}
+
     </header>
   );
 }
