@@ -1,0 +1,5 @@
+.detalheContainer { display: flex; padding: 40px; gap: 40px; }
+.mediaContainer { flex: 2; }
+.mediaContainer img, .mediaContainer video { max-width: 100%; }
+.infoContainer { flex: 1; }
+.backLink { margin-top: 20px; display: inline-block; }

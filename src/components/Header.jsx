@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
+import {Link} from 'react-router-dom';
 
 function Header() {
   const navLinks = [
-    { title: 'ABOUT', url: '#about' },
-    { title: 'ILLUSTRATION', url: '#illustration' },
-    { title: 'PHOTOGRAPHY', url: '#photography' },
-    { title: 'VIDEOART', url: '#videoart' },
-    { title: '3D MODELING', url: '#3d-modeling' },
-    { title: 'GRAFIC DESIGN', url: '#grafic-design' }
+    { title: 'ABOUT', url: '/about' },
+    { title: 'ILLUSTRATION', url: '/illustration' },
+    { title: 'PHOTOGRAPHY', url: '/photography' },
+    { title: 'VIDEOART', url: '/videoart' },
+    { title: '3D MODELING', url: '/3d-modeling' },
+    { title: 'GRAFIC DESIGN', url: '/grafic-design' }
   ];
 
   const fonts = [
@@ -42,7 +43,7 @@ function Header() {
         <ul>
           {navLinks.map((link) => (
             <li key={link.title}>
-              <a href={link.url}>{link.title}</a>
+              <Link to={link.url}>{link.title}</Link>
             </li>
           ))}
         </ul>

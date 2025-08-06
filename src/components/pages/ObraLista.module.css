@@ -1,0 +1,21 @@
+.listaContainer {
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.tituloCategoria {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.gridObras {
+  display: grid;
+  /* Cria um grid responsivo: 3 colunas em telas grandes, 2 em médias, 1 em pequenas */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}

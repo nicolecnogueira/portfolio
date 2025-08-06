@@ -1,7 +1,7 @@
-import FengSuave from '../assets/ilustration/FengSuave';
-import Hell from '../assets/ilustration/Hell';
-import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras';
-import TNDR from '../assets/photography/TNDR';
+import FengSuave from '../assets/illustration/FengSuave.jpg';
+import Hell from '../assets/illustration/Hell.jpg';
+import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
+import TNDR from '../assets/photography/TNDR.jpg';
 
 export const obras = [
   {
