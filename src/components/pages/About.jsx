@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './About.module.css';
 
 function About() {
-  const marqueeText = "who am I born in Brazil where I'm at visual poetry ";
+  const marqueeText = "who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin ";
   const lineCount = 15;
   const marqueeLines = Array.from({ length: lineCount }).map((_, index) => (
     <div key={index} className={styles.marqueeLine}>
@@ -18,16 +18,19 @@ function About() {
 
       <div className={styles.contentCard}>
         <p>
-          Hello, I'm a Lisbon-based multimedia artist with roots in Brazil.
+          Hi, I’m Julia, a multimedia artist with roots in Brazil and no fixed coordinates (for now).
         </p>
         <p>
-          I blend visual art, design, and concept to build works that question, feel, and shift.
+          I grew up in Brazil, moved to Portugal to study Multimedia Art at FBAUL, and spent some time living in Italy. These places, the people, the stories, and the chaos within them shaped how I see and make.
         </p>
         <p>
-          Inspired by modern brazilian art, literature, and the world's urgencies, social, political, environmental.
+          I mix visual art, design, and concept to create works that question, feel, and shift.
         </p>
         <p>
-          I explore identity, transformation, and culture across mediums like illustration, photography, video and beyond.
+          Heavily inspired by modern Brazilian art, literature, and the world’s urgencies — social, political, environmental.
+        </p>
+        <p>
+          I drift between illustration, photography, and video, letting each idea find the form it needs.
         </p>
       </div>
     </section>
