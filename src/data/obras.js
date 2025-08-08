@@ -1,5 +1,8 @@
 import FengSuave from '../assets/illustration/FengSuave.jpg';
 import Hell from '../assets/illustration/Hell.jpg';
+import coloridas from '../assets/illustration/coloridas.png';
+import blue from '../assets/illustration/blue.png';
+import coffee from '../assets/illustration/coffee.png';
 import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
 import TNDR from '../assets/photography/TNDR.jpg';
 
@@ -51,5 +54,41 @@ export const obras = [
     descricao: 'This photographic project addresses environmental issues entangled with global power dynamics. Its title references Canção do Exílio by Gonçalves Dias—a Romantic poem evoking Latin American nature and identity. Inspired by the EU–Mercosur trade agreement and its controversial Side Letter, the project critiques Europe’s eco-protectionist stance, which often excludes indigenous voices and favors European economic interests. Shot on 35mm film, the portraits of Latin Americans were deliberately distorted during analog development using substances the EU seeks to restrict—soy, wood, and coffee byproducts. These materials disrupt the image, symbolizing the erasure of Latin American presence. The project also explores experimental photography techniques, including chemical alterations with soybean oil. Final images measure 13×18 cm and were compiled into a printed book designed with Photoshop and InDesign.',
     tipo: 'imagem',
     midia: NaMinhaTerraTemPalmeiras
+  },
+  {
+    id: 5,
+    slug: 'coloridas',
+    titulo: 'Coloridas',
+    tecnica: 'Digital Illustration',
+    ano: 2024,
+    categoria: 'illustration',
+    ferramentas: ['procreate'],
+    descricao: 'This project presents visual interpretations of four iconic Brazilian songs: “Tiro ao Álvaro” by Adoniran Barbosa, “Construção” by Chico Buarque, “O Mundo é um Moinho” by Cartola, and “Naquela Mesa” by Nelson Gonçalves.',
+    tipo: 'imagem',
+    midia: coloridas
+  },
+  {
+    id: 6,
+    slug: 'blue',
+    titulo: 'Blue',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator', 'photoshop'],
+    descricao: 'A portrait that began as an analog drawing and was later translated into digital format. The process blends the texture and spontaneity of traditional media with the precision and flexibility of digital tools.',
+    tipo: 'imagem',
+    midia: blue
+  },
+  {
+    id: 7,
+    slug: 'coffee',
+    titulo: 'Coffee',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
+    tipo: 'imagem',
+    midia: coffee
   }
 ];
