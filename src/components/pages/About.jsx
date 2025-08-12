@@ -2,11 +2,26 @@ import React from 'react';
 import styles from './About.module.css';
 
 function About() {
-  const marqueeText = "who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin who am I born in Brazil been in Portugal lived in Italy where do I begin ";
-  const lineCount = 15;
-  const marqueeLines = Array.from({ length: lineCount }).map((_, index) => (
+  const marqueeText = [
+    "who am I   born in Brazil   been in Portugal   lived in Italy   where do I begin ",
+    "no fixed base   where am I   visual poetry   born in Brazil ",
+    "where do I begin   in between places   where I’m at   visual poetry ",
+    "born in Brazil   shaped by elsewhere   from here & nowhere    i’m in between ",
+    "no fixed base   where am I   visual poetry   born in Brazil ",
+    "who am I   born in Brazil   been in Portugal   lived in Italy   where do I begin ",
+    "born in Brazil   shaped by elsewhere   from here & nowhere    i’m in between ",
+    "where do I begin   in between places   where I’m at   visual poetry ",
+    "born in Brazil   shaped by elsewhere   from here & nowhere    i’m in between ",
+    "where do I begin   in between places   where I’m at   visual poetry ",
+    "who am I   born in Brazil   been in Portugal   lived in Italy   where do I begin ",
+    "no fixed base   where am I   visual poetry   born in Brazil ",
+    "where do I begin   in between places   where I’m at   visual poetry ",
+    "born in Brazil   shaped by elsewhere   from here & nowhere    i’m in between ",
+    "who am I   born in Brazil   been in Portugal   lived in Italy   where do I begin ",
+  ];
+  const marqueeLines = marqueeText.map((text, index) => (
     <div key={index} className={styles.marqueeLine}>
-      <span>{marqueeText.repeat(4)}</span>
+      <span>{text.repeat(5)}</span>
     </div>
   ));
 
