@@ -10,6 +10,22 @@ import justSomeLines from '../assets/illustration/justSomeLines.png';
 import journey from '../assets/illustration/journey.png';
 import wine from '../assets/illustration/wine.png';
 import friendship from '../assets/illustration/friendship.png';
+import shelf from '../assets/illustration/shelf.png';
+import macunaima from '../assets/illustration/macunaima.png';
+import light from '../assets/illustration/light.png';
+import brasilNaoObvio from '../assets/illustration/brasilNaoObvio.png';
+import mulheres from '../assets/illustration/mulheres.png';
+import julieta from '../assets/illustration/julieta.png';
+import cerrado from '../assets/illustration/cerrado.png';
+import girlies from '../assets/illustration/girlies.png';
+import theRoom from '../assets/3d-modeling/theRoom.png';
+import beauty from '../assets/3d-modeling/beauty.png';
+import sublime from '../assets/3d-modeling/sublime.png';
+import antithesis from '../assets/videoart/antithesis.png';
+import pequenosPrazeres from '../assets/videoart/pequenosPrazeres.png';
+import slw from '../assets/graphic-design/slw.png';
+import brasilComS from '../assets/graphic-design/brasilComS.png';
+import forgotten from '../assets/graphic-design/forgotten.png';
 import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
 import TNDR from '../assets/photography/TNDR.jpg';
 
@@ -181,5 +197,197 @@ export const obras = [
     descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
     tipo: 'imagem',
     midia: friendship
+  },
+  {
+    id: 15,
+    slug: 'shelf',
+    titulo: 'Shelf',
+    tecnica: 'Analog Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: [],
+    descricao: 'A visual interpretation of Susan Howe’s poetry, based on the evocative line “bookshelf sheltered behind the artist ear”.',
+    tipo: 'imagem',
+    midia: shelf
+  },
+  {
+    id: 16,
+    slug: 'macunaima',
+    titulo: 'Macunaíma',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'A book cover illustration for Macunaíma by Mário de Andrade, inspired by the guaraná plant to evoke the novel’s indigenous roots and mythical essence. ',
+    tipo: 'imagem',
+    midia: macunaima
+  },
+  {
+    id: 17,
+    slug: 'light',
+    titulo: 'Light',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['Procreate'],
+    descricao: 'An educational yet playful infographic illustrating the process of how sunlight causes tanning. The design breaks down the science behind UV rays and skin response using simple language, vibrant visuals, and engaging layouts to make the information accessible and fun.',
+    tipo: 'imagem',
+    midia: light
+  },
+  {
+    id: 18,
+    slug: 'sublime',
+    titulo: 'Sublime',
+    tecnica: '3D Modeling',
+    ano: 2025,
+    categoria: '3d-modeling',
+    ferramentas: ['Blender'],
+    descricao: 'An illustration series exploring the concept of the sublime, inspired by the experience of sunrise. Created through 3D modeling with carefully adjusted lighting and composition.',
+    tipo: 'imagem',
+    midia: sublime
+  },
+  {
+    id: 19,
+    slug: 'brasil-nao-obvio',
+    titulo: 'Brasil Não Óbvio',
+    tecnica: 'Digital Illustration',
+    ano: 2023,
+    categoria: 'illustration',
+    ferramentas: ['Procreate', 'Reaper'],
+    descricao: 'Started in August 2023 after returning from a year abroad, this project reflects on the gap between foreign perceptions of Brazil and my lived experience. What began as digital illustrations evolved into an animation, with sound built from public domain audio and edited in Reaper.',
+    tipo: 'imagem',
+    midia: brasilNaoObvio
+  },
+  {
+    id: 20,
+    slug: 'mulheres',
+    titulo: 'Mulheres',
+    tecnica: 'Digital Illustration',
+    ano: 2023,
+    categoria: 'illustration',
+    ferramentas: ['Procreate'],
+    descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
+    tipo: 'imagem',
+    midia: mulheres
+  },
+  {
+    id: 21,
+    slug: 'julieta',
+    titulo: 'Julieta',
+    tecnica: 'Digital Illustration',
+    ano: 2023,
+    categoria: 'illustration',
+    ferramentas: ['Procreate'],
+    descricao: 'An illustration of a scene from Baz Luhrmann’s Romeo + Juliet, created using only blending modes to build color, depth, and atmosphere.',
+    tipo: 'imagem',
+    midia: julieta
+  },
+  {
+    id: 22,
+    slug: 'cerrado',
+    titulo: 'Cerrado',
+    tecnica: 'Digital Illustration',
+    ano: 2023,
+    categoria: 'illustration',
+    ferramentas: ['Procreate'],
+    descricao: 'A set of illustrations featuring native animals from the Brazilian Cerrado. Each piece combines geometric shapes and vibrant color gradients to celebrate the region’s unique biodiversity through a stylized and contemporary visual language.',
+    tipo: 'imagem',
+    midia: cerrado
+  },
+  {
+    id: 23,
+    slug: 'girlies',
+    titulo: 'Girlies',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['Illustrator'],
+    descricao: 'An illustration created for Women’s Day 2025, featuring a circular composition of girls in a gesture of unity and celebration.',
+    tipo: 'imagem',
+    midia: girlies
+  },
+  {
+    id: 24,
+    slug: 'theRoom',
+    titulo: 'The Room',
+    tecnica: '3D Animation',
+    ano: 2023,
+    categoria: '3d-modeling',
+    ferramentas: ['Blender'],
+    descricao: 'This short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
+    tipo: 'imagem',
+    midia: theRoom
+  },
+  {
+    id: 25,
+    slug: 'beauty',
+    titulo: 'Beauty',
+    tecnica: '3D Animation',
+    ano: 2023,
+    categoria: '3d-modeling',
+    ferramentas: ['Blender'],
+    descricao: 'this short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
+    tipo: 'imagem',
+    midia: beauty
+  },
+  {
+    id: 26,
+    slug: 'antithesis',
+    titulo: 'Antithesis',
+    tecnica: 'HD, Color, Stereo',
+    ano: 2023,
+    categoria: 'videoart',
+    ferramentas: ['Premiere PRO'],
+    descricao: 'An experimental video exploring antithesis through the female figure, inspired by the Brazilian symbolist poem Ismáliaby Alphonsus Guimaraens. While the poem depicts inner turmoil, the visuals show serene expressions. Contrasts are reinforced through complementary colors, styling, and digitally adjusted color grading. Edited in Adobe Premiere (16:9 format).',
+    tipo: 'imagem',
+    midia: antithesis
+  },
+  {
+    id: 27,
+    slug: 'pequenos-prazeres',
+    titulo: 'Prequenos Prazeres',
+    tecnica: 'HD, Color, Black and White, Stereo',
+    ano: 2023,
+    categoria: 'videoart',
+    ferramentas: ['Premiere PRO'],
+    descricao: 'This short film celebrates overlooked moments of everyday pleasure—like the feel of water on skin, laughter, or human touch. Told through visual vignettes, it blends black-and-white and color footage shot on DSLR with 15–45mm lenses. Minimalist direction, close-ups, and rhythmic editing encourage viewers to slow down and reconnect with simple joys. Edited and color-graded in Adobe Premiere (16:9 format).',
+    tipo: 'imagem',
+    midia: pequenosPrazeres
+  },
+  {
+    id: 28,
+    slug: 'slw',
+    titulo: 'SLW',
+    tecnica: 'Graphic Design',
+    ano: 2025,
+    categoria: 'graphic-design',
+    ferramentas: ['Illustrator', 'Photoshop'],
+    descricao: 'Developed as a university assignment, this visual identity for San Lorenzo in da Wood, a music festival in Italy, explores the connection between body, memory, and nature. Analog drawings of human anatomy were digitally transformed into organic textures, echoing natural surfaces like bark or cracked soil. The concept blurs the line between skin and landscape, evoking touch, time, and trace. Earthy and highly saturated colors amplify emotion and materiality, guided by the idea: Reject modernity. Embrace nature (tradition).',
+    tipo: 'imagem',
+    midia: slw
+  },
+  {
+    id: 29,
+    slug: 'brasil-com-s',
+    titulo: 'Brasil Com S',
+    tecnica: 'Web Design',
+    ano: 2025,
+    categoria: 'graphic-design',
+    ferramentas: ['Figma'],
+    descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. ',
+    tipo: 'imagem',
+    midia: brasilComS
+  },
+  {
+    id: 30,
+    slug: 'forgotten',
+    titulo: 'Forgotten',
+    tecnica: 'Web Design',
+    ano: 2025,
+    categoria: 'graphic-design',
+    ferramentas: ['Illustrator', 'Figma'],
+    descricao: 'An interactive archive of Indigenous languages across Latin America. This map-based website highlights Indigenous languages from Latin America—some endangered, some extinct, many still alive. Each language has a dedicated page with key information, cultural context, and media. Users can explore by region and status (living, endangered, extinct) and are invited to contribute new entries through a “Contribute a Language” form. The project aims to honor and preserve linguistic and cultural heritage often silenced by colonial violence—offering a space for remembrance, education, and collective participation.',
+    tipo: 'imagem',
+    midia: forgotten
   }
 ];

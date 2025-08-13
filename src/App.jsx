@@ -18,7 +18,7 @@ function App() {
           <Route path="/photography" element={<ObraLista categoria="photography" />} />
           <Route path="/videoart" element={<ObraLista categoria="videoart" />} />
           <Route path="/3d-modeling" element={<ObraLista categoria="3d-modeling" />} />
-          <Route path="/grafic-design" element={<ObraLista categoria="grafic-design" />} />
+          <Route path="/graphic-design" element={<ObraLista categoria="graphic-design" />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>

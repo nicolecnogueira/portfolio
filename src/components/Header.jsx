@@ -10,7 +10,7 @@ function Header() {
     { title: 'PHOTOGRAPHY', url: '/photography' },
     { title: 'VIDEOART', url: '/videoart' },
     { title: '3D MODELING', url: '/3d-modeling' },
-    { title: 'GRAFIC DESIGN', url: '/grafic-design' }
+    { title: 'GRAPHIC DESIGN', url: '/graphic-design' }
   ];
 
   const fonts = [
