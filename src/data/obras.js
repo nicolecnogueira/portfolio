@@ -3,6 +3,13 @@ import Hell from '../assets/illustration/Hell.jpg';
 import coloridas from '../assets/illustration/coloridas.png';
 import blue from '../assets/illustration/blue.png';
 import coffee from '../assets/illustration/coffee.png';
+import jare from '../assets/illustration/jare.png';
+import magic from '../assets/illustration/magic.png';
+import things from '../assets/illustration/things.png';
+import justSomeLines from '../assets/illustration/justSomeLines.png';
+import journey from '../assets/illustration/journey.png';
+import wine from '../assets/illustration/wine.png';
+import friendship from '../assets/illustration/friendship.png';
 import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
 import TNDR from '../assets/photography/TNDR.jpg';
 
@@ -90,5 +97,89 @@ export const obras = [
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
     tipo: 'imagem',
     midia: coffee
+  },
+  {
+    id: 8,
+    slug: 'jare',
+    titulo: 'Jaré',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'An illustration based on a newspaper headline with this unusual title: “Jacaré da Pampulha: gordo e tranquilo” (“Alligator from Pampulha: fat and calm”).',
+    tipo: 'imagem',
+    midia: jare
+  },
+  {
+    id: 9,
+    slug: 'magic',
+    titulo: 'Magic',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
+    tipo: 'imagem',
+    midia: magic
+  },
+  {
+    id: 10,
+    slug: 'things',
+    titulo: 'Things',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'A personal illustration reflecting elements, objects, and symbols that I believe represent who I am. It’s a playful and intuitive self-portrait built from fragments of identity',
+    tipo: 'imagem',
+    midia: things
+  },
+  {
+    id: 11,
+    slug: 'just-some-lines',
+    titulo: 'Just Some Lines',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator'],
+    descricao: 'A visual exploration focused entirely on the use of lines to create form, texture, and depth.',
+    tipo: 'imagem',
+    midia: justSomeLines
+  },
+  {
+    id: 12,
+    slug: 'journey',
+    titulo: 'Journey',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator', 'Photoshop'],
+    descricao: 'A drawing inspired by the idea of a spiritual journey, blending symbolic elements and expressive forms. The piece draws visual and narrative references from the Brazilian telenovela ”Caminho das Índias”.',
+    tipo: 'imagem',
+    midia: journey
+  },
+  {
+    id: 13,
+    slug: 'wine',
+    titulo: 'Wine',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator', 'Photoshop'],
+    descricao: 'A poster design for wine, using geometric shapes to create a bold and modern visual language.',
+    tipo: 'imagem',
+    midia: wine
+  },
+  {
+    id: 14,
+    slug: 'friendship',
+    titulo: 'Friendship',
+    tecnica: 'Digital Illustration',
+    ano: 2025,
+    categoria: 'illustration',
+    ferramentas: ['illustrator', 'Photoshop'],
+    descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
+    tipo: 'imagem',
+    midia: friendship
   }
 ];
