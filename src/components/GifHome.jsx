@@ -6,6 +6,7 @@
     const [lines, setLines] = useState([]);
     const [charIndex, setCharIndex] = useState(0);
     const [fontSize, setFontSize] = useState(16);
+    const [showFinalText, setShowFinalText] = useState(false);
 
     const containerRef = useRef(null);
     const sizerRef = useRef(null);
@@ -36,10 +37,19 @@
 
     useEffect(() => {
       const typeInterval = 60;
+      if (charIndex < phrase.length) {
       const timer = setTimeout(() => {
-        setCharIndex(prevIndex => (prevIndex + 1) % (phrase.length + 1));
+        setCharIndex(prevIndex => prevIndex + 1);
       }, typeInterval);
       return () => clearTimeout(timer);
+    } else {
+      setShowFinalText(true);
+      const holdTimer = setTimeout(() => {
+        setShowFinalText(false);
+        setCharIndex(0);
+      }, 1000);
+      return () => clearTimeout(holdTimer);
+    }
     }, [charIndex, phrase.length]);
 
     useEffect(() => {
@@ -53,21 +63,50 @@
       <div className={styles.container} ref={containerRef}>
         <pre ref={sizerRef} className={styles.sizer}>{phrase}</pre>
 
-        {/* Camada branca de fundo */}
+        {!showFinalText && (
         <pre
           className={`${styles.glitchText} ${styles.baseLayer}`}
           style={{ fontSize: `${fontSize}px` }}
         >
           {textContent}
         </pre>
+      )}
 
-        {/* Camada colorida por cima */}
+      {showFinalText && (
         <pre
-          className={`${styles.glitchText} ${styles.colorLayer}`}
+          className={styles.finalText}
           style={{ fontSize: `${fontSize}px` }}
         >
           {textContent}
         </pre>
+      )}
+      <svg style={{ display: 'none' }}>
+        <filter id="wave">
+          <feTurbulence 
+            id="turbulence" 
+            type="turbulence" 
+            baseFrequency="0.01 0.2" 
+            numOctaves="1" 
+            result="noise" 
+            seed="0" 
+          >
+            <animate 
+              attributeName="seed"
+              from="0"
+              to="100"
+              dur="4s"
+              repeatCount="indefinite"
+            />
+          </feTurbulence>
+          <feDisplacementMap 
+            in="SourceGraphic" 
+            in2="noise" 
+            scale="10" 
+            xChannelSelector="R" 
+            yChannelSelector="G" 
+          />
+        </filter>
+      </svg>
       </div>
     );
   };
