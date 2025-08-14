@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import ObraLista from './components/pages/ObraLista';
 import ObraDetail from './components/pages/ObraDetail';
 import Footer from './components/Footer';
+import Home from './components/pages/Home'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/portifolio" element={<Home />} />
           <Route path="/obras/:slug" element={<ObraDetail />} />
           <Route path="/illustration" element={<ObraLista categoria="illustration" />} />
           <Route path="/photography" element={<ObraLista categoria="photography" />} />
