@@ -71,7 +71,7 @@ export const obras = [
     slug: 'na-minha-terra-tem-palmeiras',
     titulo: 'Na Minha Terra Tem Palmeiras',
     tecnica: 'Chemigrams Analog Photography',
-    ano: 2023/24,
+    ano: 2024,
     categoria: 'photography',
     ferramentas: ['indesign'],
     descricao: 'This photographic project addresses environmental issues entangled with global power dynamics. Its title references Canção do Exílio by Gonçalves Dias—a Romantic poem evoking Latin American nature and identity. Inspired by the EU–Mercosur trade agreement and its controversial Side Letter, the project critiques Europe’s eco-protectionist stance, which often excludes indigenous voices and favors European economic interests. Shot on 35mm film, the portraits of Latin Americans were deliberately distorted during analog development using substances the EU seeks to restrict—soy, wood, and coffee byproducts. These materials disrupt the image, symbolizing the erasure of Latin American presence. The project also explores experimental photography techniques, including chemical alterations with soybean oil. Final images measure 13×18 cm and were compiled into a printed book designed with Photoshop and InDesign.',

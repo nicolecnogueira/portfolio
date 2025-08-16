@@ -14,25 +14,35 @@ function ObraDetail() {
 
   return (
     <div className={styles.detalheContainer}>
+      
+      <div className={styles.infoContainer}>
+
+        <div className={styles.header}>
+          <h1>{obra.titulo}</h1>
+          <div className={styles.metaInfo}>
+            <span>{obra.ano}</span>
+            <span>{obra.tecnica}</span>
+          </div>
+        </div>
+
+        <div className={styles.ferramentas}>
+        {obra.ferramentas.map((tool) => (
+          <span key={tool} className={styles.ferramentaTag}>
+            {tool}
+          </span>
+        ))}
+      </div>
+
+        <p className={styles.descricao}>{obra.descricao}</p>
+
+      </div>
+
       <div className={styles.mediaContainer}>
         {obra.tipo === 'imagem' ? (
           <img src={obra.midia} alt={obra.titulo} />
         ) : (
           <video src={obra.midia} autoPlay loop muted controls />
         )}
-      </div>
-      <div className={styles.infoContainer}>
-        <h1>{obra.titulo}</h1>
-        <h2>{obra.subtitulo}</h2>
-        <p className={styles.ano}>{obra.ano}</p>
-        <p className={styles.descricao}>{obra.descricao}</p>
-        <div className={styles.ferramentas}>
-          <strong>Ferramentas:</strong>
-          <ul>
-            {obra.ferramentas.map(tool => <li key={tool}>{tool}</li>)}
-          </ul>
-        </div>
-        <Link to="/" className={styles.backLink}>Voltar para o início</Link>
       </div>
     </div>
   );
