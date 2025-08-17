@@ -5,7 +5,7 @@ import styles from './ObraLista.module.css';
 
 function ObraLista({ categoria }) {
   const obrasFiltradas = obras.filter(
-    (obra) => obra.categoria === categoria
+    (obra) => obra.categoria.includes(categoria)
   );
 
   return (
