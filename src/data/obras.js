@@ -1,4 +1,5 @@
 import FengSuave from '../assets/illustration/FengSuave.jpg';
+import FengSuave2 from '../assets/illustration/FengSuave2.png';
 import Hell from '../assets/illustration/Hell.jpg';
 import coloridas from '../assets/illustration/coloridas.png';
 import oMundoEUmMoinho from '../assets/illustration/oMundoEUmMoinho.png';
@@ -8,17 +9,33 @@ import coffee from '../assets/illustration/coffee.png';
 import coffee2 from '../assets/illustration/coffee2.png';
 import coffee3 from '../assets/illustration/coffee3.png';
 import coffee4 from '../assets/illustration/coffee4.png';
+import coffee5 from '../assets/illustration/coffee5.png';
+import coffee6 from '../assets/illustration/coffee6.png';
+import coffee7 from '../assets/illustration/coffee7.png';
+import coffee8 from '../assets/illustration/coffee8.png';
 import jare from '../assets/illustration/jare.png';
 import magic from '../assets/illustration/magic.png';
+import magic2 from '../assets/illustration/magic2.png';
+import magic3 from '../assets/illustration/magic3.png';
+import magic4 from '../assets/illustration/magic4.png';
 import things from '../assets/illustration/things.png';
 import justSomeLines from '../assets/illustration/justSomeLines.png';
 import journey from '../assets/illustration/journey.png';
 import wine from '../assets/illustration/wine.png';
+import wine2 from '../assets/illustration/wine2.png';
+import wine3 from '../assets/illustration/wine3.png';
 import friendship from '../assets/illustration/friendship.png';
 import shelf from '../assets/illustration/shelf.png';
 import macunaima from '../assets/illustration/macunaima.png';
+import macunaima2 from '../assets/illustration/macunaima2.png';
+import macunaima3 from '../assets/illustration/macunaima3.png';
+import macunaima4 from '../assets/illustration/macunaima4.png';
 import light from '../assets/illustration/light.png';
 import brasilNaoObvio from '../assets/illustration/brasilNaoObvio.png';
+import brasilNaoObvio2 from '../assets/illustration/brasilNaoObvio2.png';
+import brasilNaoObvio3 from '../assets/illustration/brasilNaoObvio3.png';
+import brasilNaoObvio4 from '../assets/illustration/brasilNaoObvio4.png';
+import brasilNaoObvio5 from '../assets/illustration/brasilNaoObvio5.png';
 import mulheres from '../assets/illustration/mulheres.png';
 import julieta from '../assets/illustration/julieta.png';
 import cerrado from '../assets/illustration/cerrado.png';
@@ -26,6 +43,9 @@ import girlies from '../assets/illustration/girlies.png';
 import theRoom from '../assets/3d-modeling/theRoom.png';
 import beauty from '../assets/3d-modeling/beauty.png';
 import sublime from '../assets/3d-modeling/sublime.png';
+import sublime2 from '../assets/3d-modeling/sublime2.png';
+import sublime3 from '../assets/3d-modeling/sublime3.png';
+import sublime4 from '../assets/3d-modeling/sublime4.png';
 import antithesis from '../assets/videoart/antithesis.png';
 import pequenosPrazeres from '../assets/videoart/pequenosPrazeres.png';
 import slw from '../assets/graphic-design/slw.png';
@@ -45,7 +65,7 @@ export const obras = [
     ferramentas: ['illutrator', 'Photoshop'],
     descricao: 'Set of music posters inspired by the aesthetic and mood of the Dutch duo Feng Suave.',
     midias: {
-      final: [FengSuave],
+      final: [FengSuave, FengSuave2],
       rascunho: []
     }
   },
@@ -129,7 +149,7 @@ export const obras = [
     ferramentas: ['illustrator'],
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
     midias: {
-      final: [coffee, coffee2, coffee3, coffee4],
+      final: [coffee, coffee2, coffee3, coffee4, coffee5, coffee6, coffee7, coffee8],
       rascunho:[]
     }
   },
@@ -157,7 +177,7 @@ export const obras = [
     ferramentas: ['illustrator'],
     descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
     midias: {
-      final: [magic],
+      final: [magic, magic2, magic3, magic4],
       rascunho: []
     }
   },
@@ -213,7 +233,7 @@ export const obras = [
     ferramentas: ['illustrator', 'Photoshop'],
     descricao: 'A poster design for wine, using geometric shapes to create a bold and modern visual language.',
     midias: {
-      final: [wine],
+      final: [wine, wine2, wine3],
       rascunho: []
     }
   },
@@ -255,7 +275,7 @@ export const obras = [
     ferramentas: ['illustrator'],
     descricao: 'A book cover illustration for Macunaíma by Mário de Andrade, inspired by the guaraná plant to evoke the novel’s indigenous roots and mythical essence. ',
     midias: {
-      final: [macunaima],
+      final: [macunaima, macunaima2, macunaima3, macunaima4],
       rascunho: []
     }
   },
@@ -283,7 +303,7 @@ export const obras = [
     ferramentas: ['Blender'],
     descricao: 'An illustration series exploring the concept of the sublime, inspired by the experience of sunrise. Created through 3D modeling with carefully adjusted lighting and composition.',
     midias: {
-      final: [sublime],
+      final: [sublime, sublime2, sublime3, sublime4],
       rascunho: []
     }
   },
@@ -297,7 +317,7 @@ export const obras = [
     ferramentas: ['Procreate', 'Reaper'],
     descricao: 'Started in August 2023 after returning from a year abroad, this project reflects on the gap between foreign perceptions of Brazil and my lived experience. What began as digital illustrations evolved into an animation, with sound built from public domain audio and edited in Reaper.',
     midias: {
-      final: [brasilNaoObvio],
+      final: [brasilNaoObvio, brasilNaoObvio2, brasilNaoObvio3, brasilNaoObvio4, brasilNaoObvio5],
       rascunho: []
     }
   },
