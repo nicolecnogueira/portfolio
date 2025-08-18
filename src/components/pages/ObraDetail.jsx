@@ -39,25 +39,51 @@ function ObraDetail() {
 
       <div className={styles.mediaContainer}>
         
-        {obra.midias.rascunhos && obra.midias.rascunhos.length > 0 && (
-            <div className={styles.mediaSection}>
+        {obra.categoria.includes('videoart')  ? (
+
+          
+          (() => {
+            const url = new URL(obra.videoUrl);
+            const videoId = url.searchParams.get('v');
+            const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+            return (
+              <div className={styles.videoWrapper}>
+                <iframe
+                  src={embedUrl}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title={obra.titulo}
+                ></iframe>
+              </div>
+            );
+          })()
+
+        ) : (
+
+          <>
+            {obra.midias.rascunhos && obra.midias.rascunhos.length > 0 && (
+              <div className={styles.mediaSection}>
                 <h2 className={styles.mediaSectionTitle}>Rascunhos</h2>
                 <div className={styles.galleryGrid}>
-                    {obra.midias.rascunhos.map((imagem, index) => (
-                        <img key={index} src={imagem} alt={`${obra.titulo} - rascunho ${index + 1}`} />
-                    ))}
+                  {obra.midias.rascunhos.map((imagem, index) => (
+                    <img key={index} src={imagem} alt={`${obra.titulo} - rascunho ${index + 1}`} />
+                  ))}
                 </div>
-            </div>
-        )}
+              </div>
+            )}
 
-        <div className={styles.mediaSection}>
-            <h2 className={styles.mediaSectionTitle}>Resultado Final</h2>
-            <div className={styles.galleryGrid}>
+            <div className={styles.mediaSection}>
+              <h2 className={styles.mediaSectionTitle}>Resultado Final</h2>
+              <div className={styles.galleryGrid}>
                 {obra.midias.final.map((imagem, index) => (
-                    <img key={index} src={imagem} alt={`${obra.titulo} - imagem ${index + 1}`} />
+                  <img key={index} src={imagem} alt={`${obra.titulo} - imagem ${index + 1}`} />
                 ))}
+              </div>
             </div>
-        </div>
+          </>
+        )}
       </div>
     </div>
   );

@@ -44,7 +44,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illutrator', 'Photoshop'],
     descricao: 'Set of music posters inspired by the aesthetic and mood of the Dutch duo Feng Suave.',
-    tipo: 'imagem',
     midias: {
       final: [FengSuave],
       rascunho: []
@@ -59,7 +58,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate'],
     descricao: 'An illustration reimagining Rome in a parallel universe—as if it were hell. This dark, surreal take distorts the city’s iconic architecture and atmosphere, blending historical grandeur with eerie, otherworldly elements to question the fine line between glory and decay.',
-    tipo: 'imagem',
     midias: {
       final: [Hell],
       rascunho: []
@@ -74,7 +72,6 @@ export const obras = [
     categoria: ['photography'],
     ferramentas: ['lightroom', 'photoshop', 'indesign'],
     descricao: 'Developed for Henrique Bonini’s portfolio, TNDR explores the tension between nature and modernity through brutalist aesthetics and natural tones. Shot at the Calouste Gulbenkian Foundation and in studio using Fujifilm XT-30 II and Nikon D850, the project blends color precision with compositional strength. Post-production and layout were completed using Photoshop, Lightroom, and InDesign. Final images are high-resolution (300 ppi); the printed book measures 210×297 mm.',
-    tipo: 'imagem',
     midias: {
       final: [TNDR],
       rascunho: []
@@ -89,7 +86,6 @@ export const obras = [
     categoria: ['photography'],
     ferramentas: ['indesign'],
     descricao: 'This photographic project addresses environmental issues entangled with global power dynamics. Its title references Canção do Exílio by Gonçalves Dias—a Romantic poem evoking Latin American nature and identity. Inspired by the EU–Mercosur trade agreement and its controversial Side Letter, the project critiques Europe’s eco-protectionist stance, which often excludes indigenous voices and favors European economic interests. Shot on 35mm film, the portraits of Latin Americans were deliberately distorted during analog development using substances the EU seeks to restrict—soy, wood, and coffee byproducts. These materials disrupt the image, symbolizing the erasure of Latin American presence. The project also explores experimental photography techniques, including chemical alterations with soybean oil. Final images measure 13×18 cm and were compiled into a printed book designed with Photoshop and InDesign.',
-    tipo: 'imagem',
     midias: {
       final: [NaMinhaTerraTemPalmeiras],
       rascunho: []
@@ -104,7 +100,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['procreate'],
     descricao: 'This project presents visual interpretations of four iconic Brazilian songs: “Tiro ao Álvaro” by Adoniran Barbosa, “Construção” by Chico Buarque, “O Mundo é um Moinho” by Cartola, and “Naquela Mesa” by Nelson Gonçalves.',
-    tipo: 'imagem',
     midias: {
       final: [coloridas, oMundoEUmMoinho, naquelaMesa],
       rascunho: []
@@ -119,7 +114,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator', 'photoshop'],
     descricao: 'A portrait that began as an analog drawing and was later translated into digital format. The process blends the texture and spontaneity of traditional media with the precision and flexibility of digital tools.',
-    tipo: 'imagem',
     midias: {
       final: [blue],
       rascunho: []
@@ -134,7 +128,6 @@ export const obras = [
     categoria: ['illustration', 'graphic-design'],
     ferramentas: ['illustrator'],
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
-    tipo: 'imagem',
     midias: {
       final: [coffee, coffee2, coffee3, coffee4],
       rascunho:[]
@@ -149,7 +142,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator'],
     descricao: 'An illustration based on a newspaper headline with this unusual title: “Jacaré da Pampulha: gordo e tranquilo” (“Alligator from Pampulha: fat and calm”).',
-    tipo: 'imagem',
     midias: {
       final: [jare],
       rascunho: []
@@ -164,7 +156,6 @@ export const obras = [
     categoria: ['illustration', 'graphic-design'],
     ferramentas: ['illustrator'],
     descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
-    tipo: 'imagem',
     midias: {
       final: [magic],
       rascunho: []
@@ -179,7 +170,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator'],
     descricao: 'A personal illustration reflecting elements, objects, and symbols that I believe represent who I am. It’s a playful and intuitive self-portrait built from fragments of identity',
-    tipo: 'imagem',
     midias: {
       final: [things],
       rascunho: []
@@ -194,7 +184,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator'],
     descricao: 'A visual exploration focused entirely on the use of lines to create form, texture, and depth.',
-    tipo: 'imagem',
     midias: {
       final: [justSomeLines],
       rascunho: []
@@ -209,7 +198,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator', 'Photoshop'],
     descricao: 'A drawing inspired by the idea of a spiritual journey, blending symbolic elements and expressive forms. The piece draws visual and narrative references from the Brazilian telenovela ”Caminho das Índias”.',
-    tipo: 'imagem',
     midias: {
       final: [journey],
       rascunho: []
@@ -224,7 +212,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator', 'Photoshop'],
     descricao: 'A poster design for wine, using geometric shapes to create a bold and modern visual language.',
-    tipo: 'imagem',
     midias: {
       final: [wine],
       rascunho: []
@@ -239,7 +226,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['illustrator', 'Photoshop'],
     descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
-    tipo: 'imagem',
     midias: {
       final: [friendship],
       rascunho: []
@@ -254,7 +240,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: [],
     descricao: 'A visual interpretation of Susan Howe’s poetry, based on the evocative line “bookshelf sheltered behind the artist ear”.',
-    tipo: 'imagem',
     midias: {
       final: [shelf],
       rascunho: []
@@ -269,7 +254,6 @@ export const obras = [
     categoria: ['illustration', 'graphic-design'],
     ferramentas: ['illustrator'],
     descricao: 'A book cover illustration for Macunaíma by Mário de Andrade, inspired by the guaraná plant to evoke the novel’s indigenous roots and mythical essence. ',
-    tipo: 'imagem',
     midias: {
       final: [macunaima],
       rascunho: []
@@ -284,7 +268,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate'],
     descricao: 'An educational yet playful infographic illustrating the process of how sunlight causes tanning. The design breaks down the science behind UV rays and skin response using simple language, vibrant visuals, and engaging layouts to make the information accessible and fun.',
-    tipo: 'imagem',
     midias: {
       final: [light],
       rascunho: []
@@ -299,7 +282,6 @@ export const obras = [
     categoria: ['3d-modeling', 'illustration'],
     ferramentas: ['Blender'],
     descricao: 'An illustration series exploring the concept of the sublime, inspired by the experience of sunrise. Created through 3D modeling with carefully adjusted lighting and composition.',
-    tipo: 'imagem',
     midias: {
       final: [sublime],
       rascunho: []
@@ -314,7 +296,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate', 'Reaper'],
     descricao: 'Started in August 2023 after returning from a year abroad, this project reflects on the gap between foreign perceptions of Brazil and my lived experience. What began as digital illustrations evolved into an animation, with sound built from public domain audio and edited in Reaper.',
-    tipo: 'imagem',
     midias: {
       final: [brasilNaoObvio],
       rascunho: []
@@ -329,7 +310,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate'],
     descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
-    tipo: 'imagem',
     midias: {
       final: [mulheres],
       rascunho: []
@@ -344,7 +324,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate'],
     descricao: 'An illustration of a scene from Baz Luhrmann’s Romeo + Juliet, created using only blending modes to build color, depth, and atmosphere.',
-    tipo: 'imagem',
     midias: {
       final: [julieta],
       rascunho: []
@@ -359,7 +338,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Procreate'],
     descricao: 'A set of illustrations featuring native animals from the Brazilian Cerrado. Each piece combines geometric shapes and vibrant color gradients to celebrate the region’s unique biodiversity through a stylized and contemporary visual language.',
-    tipo: 'imagem',
     midias: {
       final: [cerrado],
       rascunho: []
@@ -374,7 +352,6 @@ export const obras = [
     categoria: ['illustration'],
     ferramentas: ['Illustrator'],
     descricao: 'An illustration created for Women’s Day 2025, featuring a circular composition of girls in a gesture of unity and celebration.',
-    tipo: 'imagem',
     midias: {
       final: [girlies],
       rascunho: []
@@ -389,7 +366,6 @@ export const obras = [
     categoria: ['3d-modeling'],
     ferramentas: ['Blender'],
     descricao: 'This short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
-    tipo: 'imagem',
     midias: {
       final: [theRoom],
       rascunho: []
@@ -404,7 +380,6 @@ export const obras = [
     categoria: ['3d-modeling'],
     ferramentas: ['Blender'],
     descricao: 'this short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
-    tipo: 'imagem',
     midias: {
       final: [beauty],
       rascunho: []
@@ -419,11 +394,11 @@ export const obras = [
     categoria: ['videoart'],
     ferramentas: ['Premiere PRO'],
     descricao: 'An experimental video exploring antithesis through the female figure, inspired by the Brazilian symbolist poem Ismáliaby Alphonsus Guimaraens. While the poem depicts inner turmoil, the visuals show serene expressions. Contrasts are reinforced through complementary colors, styling, and digitally adjusted color grading. Edited in Adobe Premiere (16:9 format).',
-    tipo: 'imagem',
     midias: {
       final: [antithesis],
       rascunho: []
-    }
+    },
+    videoUrl: 'https://www.youtube.com/watch?v=yKdukI2FgHo&ab_channel=JuliaMartins'
   },
   {
     id: 27,
@@ -434,11 +409,11 @@ export const obras = [
     categoria: ['videoart'],
     ferramentas: ['Premiere PRO'],
     descricao: 'This short film celebrates overlooked moments of everyday pleasure—like the feel of water on skin, laughter, or human touch. Told through visual vignettes, it blends black-and-white and color footage shot on DSLR with 15–45mm lenses. Minimalist direction, close-ups, and rhythmic editing encourage viewers to slow down and reconnect with simple joys. Edited and color-graded in Adobe Premiere (16:9 format).',
-    tipo: 'imagem',
     midias: {
       final: [pequenosPrazeres],
       rascunho: []
-    }
+    },
+    videoUrl:'https://www.youtube.com/watch?v=Q5cZqPbgO4o&ab_channel=JuliaMartins'
   },
   {
     id: 28,
@@ -449,7 +424,6 @@ export const obras = [
     categoria: ['graphic-design'],
     ferramentas: ['Illustrator', 'Photoshop'],
     descricao: 'Developed as a university assignment, this visual identity for San Lorenzo in da Wood, a music festival in Italy, explores the connection between body, memory, and nature. Analog drawings of human anatomy were digitally transformed into organic textures, echoing natural surfaces like bark or cracked soil. The concept blurs the line between skin and landscape, evoking touch, time, and trace. Earthy and highly saturated colors amplify emotion and materiality, guided by the idea: Reject modernity. Embrace nature (tradition).',
-    tipo: 'imagem',
     midias: {
       final: [slw],
       rascunho: []
@@ -464,7 +438,6 @@ export const obras = [
     categoria: ['graphic-design'],
     ferramentas: ['Figma'],
     descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. ',
-    tipo: 'imagem',
     midias: {
       final: [brasilComS],
       rascunho: []
@@ -479,7 +452,6 @@ export const obras = [
     categoria: ['graphic-design'],
     ferramentas: ['Illustrator', 'Figma'],
     descricao: 'An interactive archive of Indigenous languages across Latin America. This map-based website highlights Indigenous languages from Latin America—some endangered, some extinct, many still alive. Each language has a dedicated page with key information, cultural context, and media. Users can explore by region and status (living, endangered, extinct) and are invited to contribute new entries through a “Contribute a Language” form. The project aims to honor and preserve linguistic and cultural heritage often silenced by colonial violence—offering a space for remembrance, education, and collective participation.',
-    tipo: 'imagem',
     midias: {
       final: [forgotten],
       rascunho: []
