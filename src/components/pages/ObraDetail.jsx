@@ -14,7 +14,7 @@ function ObraDetail() {
 
   return (
     <div className={styles.detalheContainer}>
-      
+
       <div className={styles.infoContainer}>
 
         <div className={styles.header}>
@@ -38,11 +38,26 @@ function ObraDetail() {
       </div>
 
       <div className={styles.mediaContainer}>
-        {obra.tipo === 'imagem' ? (
-          <img src={obra.midia} alt={obra.titulo} />
-        ) : (
-          <video src={obra.midia} autoPlay loop muted controls />
+        
+        {obra.midias.rascunhos && obra.midias.rascunhos.length > 0 && (
+            <div className={styles.mediaSection}>
+                <h2 className={styles.mediaSectionTitle}>Rascunhos</h2>
+                <div className={styles.galleryGrid}>
+                    {obra.midias.rascunhos.map((imagem, index) => (
+                        <img key={index} src={imagem} alt={`${obra.titulo} - rascunho ${index + 1}`} />
+                    ))}
+                </div>
+            </div>
         )}
+
+        <div className={styles.mediaSection}>
+            <h2 className={styles.mediaSectionTitle}>Resultado Final</h2>
+            <div className={styles.galleryGrid}>
+                {obra.midias.final.map((imagem, index) => (
+                    <img key={index} src={imagem} alt={`${obra.titulo} - imagem ${index + 1}`} />
+                ))}
+            </div>
+        </div>
       </div>
     </div>
   );
