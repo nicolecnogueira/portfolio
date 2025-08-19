@@ -40,6 +40,7 @@ import mulheres from '../assets/illustration/mulheres.png';
 import julieta from '../assets/illustration/julieta.png';
 import cerrado from '../assets/illustration/cerrado.png';
 import girlies from '../assets/illustration/girlies.png';
+import girlies2 from '../assets/illustration/girlies2.png';
 import theRoom from '../assets/3d-modeling/theRoom.png';
 import beauty from '../assets/3d-modeling/beauty.png';
 import sublime from '../assets/3d-modeling/sublime.png';
@@ -49,10 +50,33 @@ import sublime4 from '../assets/3d-modeling/sublime4.png';
 import antithesis from '../assets/videoart/antithesis.png';
 import pequenosPrazeres from '../assets/videoart/pequenosPrazeres.png';
 import slw from '../assets/graphic-design/slw.png';
+import slw2 from '../assets/graphic-design/slw2.png';
+import slw3 from '../assets/graphic-design/slw3.png';
+import slw4 from '../assets/graphic-design/slw4.png';
+import slw5 from '../assets/graphic-design/slw5.png';
+import slw6 from '../assets/graphic-design/slw6.png';
+import slw7 from '../assets/graphic-design/slw7.png';
+import slw8 from '../assets/graphic-design/slw8.png';
+import slw9 from '../assets/graphic-design/slw9.png';
+import slw10 from '../assets/graphic-design/slw10.png';
+import slw11 from '../assets/graphic-design/slw11.png';
+import slw12 from '../assets/graphic-design/slw12.png';
+import slw13 from '../assets/graphic-design/slw13.png';
 import brasilComS from '../assets/graphic-design/brasilComS.png';
 import forgotten from '../assets/graphic-design/forgotten.png';
+import forgotten2 from '../assets/graphic-design/forgotten2.png';
+import forgotten3 from '../assets/graphic-design/forgotten3.png';
 import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
+import NaMinhaTerraTemPalmeiras2 from '../assets/photography/NaMinhaTerraTemPalmeiras2.png';
+import NaMinhaTerraTemPalmeiras3 from '../assets/photography/NaMinhaTerraTemPalmeiras3.png';
+import NaMinhaTerraTemPalmeiras4 from '../assets/photography/NaMinhaTerraTemPalmeiras4.png';
+import NaMinhaTerraTemPalmeiras5 from '../assets/photography/NaMinhaTerraTemPalmeiras5.png';
+import NaMinhaTerraTemPalmeiras6 from '../assets/photography/NaMinhaTerraTemPalmeiras6.png';
+import NaMinhaTerraTemPalmeiras7 from '../assets/photography/NaMinhaTerraTemPalmeiras7.png';
+import NaMinhaTerraTemPalmeiras8 from '../assets/photography/NaMinhaTerraTemPalmeiras8.png';
 import TNDR from '../assets/photography/TNDR.jpg';
+import TNDR2 from '../assets/photography/TNDR2.png';
+import TNDR3 from '../assets/photography/TNDR3.png';
 
 export const obras = [
   {
@@ -93,7 +117,7 @@ export const obras = [
     ferramentas: ['lightroom', 'photoshop', 'indesign'],
     descricao: 'Developed for Henrique Bonini’s portfolio, TNDR explores the tension between nature and modernity through brutalist aesthetics and natural tones. Shot at the Calouste Gulbenkian Foundation and in studio using Fujifilm XT-30 II and Nikon D850, the project blends color precision with compositional strength. Post-production and layout were completed using Photoshop, Lightroom, and InDesign. Final images are high-resolution (300 ppi); the printed book measures 210×297 mm.',
     midias: {
-      final: [TNDR],
+      final: [TNDR, TNDR2, TNDR3],
       rascunho: []
     }
   },
@@ -107,7 +131,7 @@ export const obras = [
     ferramentas: ['indesign'],
     descricao: 'This photographic project addresses environmental issues entangled with global power dynamics. Its title references Canção do Exílio by Gonçalves Dias—a Romantic poem evoking Latin American nature and identity. Inspired by the EU–Mercosur trade agreement and its controversial Side Letter, the project critiques Europe’s eco-protectionist stance, which often excludes indigenous voices and favors European economic interests. Shot on 35mm film, the portraits of Latin Americans were deliberately distorted during analog development using substances the EU seeks to restrict—soy, wood, and coffee byproducts. These materials disrupt the image, symbolizing the erasure of Latin American presence. The project also explores experimental photography techniques, including chemical alterations with soybean oil. Final images measure 13×18 cm and were compiled into a printed book designed with Photoshop and InDesign.',
     midias: {
-      final: [NaMinhaTerraTemPalmeiras],
+      final: [NaMinhaTerraTemPalmeiras, NaMinhaTerraTemPalmeiras2, NaMinhaTerraTemPalmeiras3, NaMinhaTerraTemPalmeiras4, NaMinhaTerraTemPalmeiras5, NaMinhaTerraTemPalmeiras6, NaMinhaTerraTemPalmeiras7, NaMinhaTerraTemPalmeiras8],
       rascunho: []
     }
   },
@@ -373,7 +397,7 @@ export const obras = [
     ferramentas: ['Illustrator'],
     descricao: 'An illustration created for Women’s Day 2025, featuring a circular composition of girls in a gesture of unity and celebration.',
     midias: {
-      final: [girlies],
+      final: [girlies, girlies2],
       rascunho: []
     }
   },
@@ -445,7 +469,7 @@ export const obras = [
     ferramentas: ['Illustrator', 'Photoshop'],
     descricao: 'Developed as a university assignment, this visual identity for San Lorenzo in da Wood, a music festival in Italy, explores the connection between body, memory, and nature. Analog drawings of human anatomy were digitally transformed into organic textures, echoing natural surfaces like bark or cracked soil. The concept blurs the line between skin and landscape, evoking touch, time, and trace. Earthy and highly saturated colors amplify emotion and materiality, guided by the idea: Reject modernity. Embrace nature (tradition).',
     midias: {
-      final: [slw],
+      final: [slw, slw2, slw3, slw4, slw5, slw6, slw7, slw8, slw9, slw10, slw11, slw12, slw13],
       rascunho: []
     }
   },
@@ -473,7 +497,7 @@ export const obras = [
     ferramentas: ['Illustrator', 'Figma'],
     descricao: 'An interactive archive of Indigenous languages across Latin America. This map-based website highlights Indigenous languages from Latin America—some endangered, some extinct, many still alive. Each language has a dedicated page with key information, cultural context, and media. Users can explore by region and status (living, endangered, extinct) and are invited to contribute new entries through a “Contribute a Language” form. The project aims to honor and preserve linguistic and cultural heritage often silenced by colonial violence—offering a space for remembrance, education, and collective participation.',
     midias: {
-      final: [forgotten],
+      final: [forgotten, forgotten2, forgotten3],
       rascunho: []
     }
   }
