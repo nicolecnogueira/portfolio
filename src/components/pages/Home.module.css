@@ -1,0 +1,15 @@
+ .gifContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+ }
+
+ .gifImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+ }
