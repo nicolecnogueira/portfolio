@@ -63,11 +63,11 @@ function ObraDetail() {
         ) : (
 
           <>
-            {obra.midias.rascunhos && obra.midias.rascunhos.length > 0 && (
+            {obra.midias.rascunho && obra.midias.rascunho.length > 0 && (
               <div className={styles.mediaSection}>
                 <h2 className={styles.mediaSectionTitle}>Process</h2>
                 <div className={styles.galleryGrid}>
-                  {obra.midias.rascunhos.map((imagem, index) => (
+                  {obra.midias.rascunho.map((imagem, index) => (
                     <img key={index} src={imagem} alt={`${obra.titulo} - rascunho ${index + 1}`} />
                   ))}
                 </div>

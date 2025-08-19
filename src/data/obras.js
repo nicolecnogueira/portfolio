@@ -1,10 +1,13 @@
 import FengSuave from '../assets/illustration/FengSuave.jpg';
 import FengSuave2 from '../assets/illustration/FengSuave2.png';
+import FengSuave3 from '../assets/illustration/FengSuave3.png';
+import FengSuave4 from '../assets/illustration/FengSuave4.png';
 import Hell from '../assets/illustration/Hell.jpg';
 import coloridas from '../assets/illustration/coloridas.png';
 import oMundoEUmMoinho from '../assets/illustration/oMundoEUmMoinho.png';
 import naquelaMesa from '../assets/illustration/naquelaMesa.png';
 import blue from '../assets/illustration/blue.png';
+import blue2 from '../assets/illustration/blue2.png';
 import coffee from '../assets/illustration/coffee.png';
 import coffee2 from '../assets/illustration/coffee2.png';
 import coffee3 from '../assets/illustration/coffee3.png';
@@ -13,18 +16,33 @@ import coffee5 from '../assets/illustration/coffee5.png';
 import coffee6 from '../assets/illustration/coffee6.png';
 import coffee7 from '../assets/illustration/coffee7.png';
 import coffee8 from '../assets/illustration/coffee8.png';
+import coffee9 from '../assets/illustration/coffee9.png';
+import coffee10 from '../assets/illustration/coffee10.png';
 import jare from '../assets/illustration/jare.png';
+import jare2 from '../assets/illustration/jare2.png';
+import jare3 from '../assets/illustration/jare3.png';
 import magic from '../assets/illustration/magic.png';
 import magic2 from '../assets/illustration/magic2.png';
 import magic3 from '../assets/illustration/magic3.png';
 import magic4 from '../assets/illustration/magic4.png';
+import magic5 from '../assets/illustration/magic5.png';
+import magic6 from '../assets/illustration/magic6.png';
 import things from '../assets/illustration/things.png';
+import things2 from '../assets/illustration/things2.png';
+import things3 from '../assets/illustration/things3.png';
 import justSomeLines from '../assets/illustration/justSomeLines.png';
+import justSomeLines2 from '../assets/illustration/justSomeLines2.png';
+import justSomeLines3 from '../assets/illustration/justSomeLines3.png';
 import journey from '../assets/illustration/journey.png';
+import journey2 from '../assets/illustration/journey2.png';
 import wine from '../assets/illustration/wine.png';
 import wine2 from '../assets/illustration/wine2.png';
 import wine3 from '../assets/illustration/wine3.png';
+import wine4 from '../assets/illustration/wine4.png';
+import wine5 from '../assets/illustration/wine5.png';
 import friendship from '../assets/illustration/friendship.png';
+import friendship2 from '../assets/illustration/friendship2.png';
+import friendship3 from '../assets/illustration/friendship3.png';
 import shelf from '../assets/illustration/shelf.png';
 import macunaima from '../assets/illustration/macunaima.png';
 import macunaima2 from '../assets/illustration/macunaima2.png';
@@ -37,6 +55,11 @@ import brasilNaoObvio3 from '../assets/illustration/brasilNaoObvio3.png';
 import brasilNaoObvio4 from '../assets/illustration/brasilNaoObvio4.png';
 import brasilNaoObvio5 from '../assets/illustration/brasilNaoObvio5.png';
 import mulheres from '../assets/illustration/mulheres.png';
+import mulheres2 from '../assets/illustration/mulheres2.png';
+import mulheres3 from '../assets/illustration/mulheres3.png';
+import mulheres4 from '../assets/illustration/mulheres4.png';
+import mulheres5 from '../assets/illustration/mulheres5.png';
+import mulheres6 from '../assets/illustration/mulheres6.png';
 import julieta from '../assets/illustration/julieta.png';
 import cerrado from '../assets/illustration/cerrado.png';
 import girlies from '../assets/illustration/girlies.png';
@@ -90,7 +113,7 @@ export const obras = [
     descricao: 'Set of music posters inspired by the aesthetic and mood of the Dutch duo Feng Suave.',
     midias: {
       final: [FengSuave, FengSuave2],
-      rascunho: []
+      rascunho: [FengSuave3, FengSuave4]
     }
   },
   {
@@ -160,7 +183,7 @@ export const obras = [
     descricao: 'A portrait that began as an analog drawing and was later translated into digital format. The process blends the texture and spontaneity of traditional media with the precision and flexibility of digital tools.',
     midias: {
       final: [blue],
-      rascunho: []
+      rascunho: [blue2]
     }
   },
   {
@@ -174,7 +197,7 @@ export const obras = [
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
     midias: {
       final: [coffee, coffee2, coffee3, coffee4, coffee5, coffee6, coffee7, coffee8],
-      rascunho:[]
+      rascunho:[coffee9, coffee10]
     }
   },
   {
@@ -188,7 +211,7 @@ export const obras = [
     descricao: 'An illustration based on a newspaper headline with this unusual title: “Jacaré da Pampulha: gordo e tranquilo” (“Alligator from Pampulha: fat and calm”).',
     midias: {
       final: [jare],
-      rascunho: []
+      rascunho: [jare2, jare3]
     }
   },
   {
@@ -202,7 +225,7 @@ export const obras = [
     descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
     midias: {
       final: [magic, magic2, magic3, magic4],
-      rascunho: []
+      rascunho: [magic5, magic6]
     }
   },
   {
@@ -216,7 +239,7 @@ export const obras = [
     descricao: 'A personal illustration reflecting elements, objects, and symbols that I believe represent who I am. It’s a playful and intuitive self-portrait built from fragments of identity',
     midias: {
       final: [things],
-      rascunho: []
+      rascunho: [things2, things3]
     }
   },
   {
@@ -230,7 +253,7 @@ export const obras = [
     descricao: 'A visual exploration focused entirely on the use of lines to create form, texture, and depth.',
     midias: {
       final: [justSomeLines],
-      rascunho: []
+      rascunho: [justSomeLines2, justSomeLines3]
     }
   },
   {
@@ -244,7 +267,7 @@ export const obras = [
     descricao: 'A drawing inspired by the idea of a spiritual journey, blending symbolic elements and expressive forms. The piece draws visual and narrative references from the Brazilian telenovela ”Caminho das Índias”.',
     midias: {
       final: [journey],
-      rascunho: []
+      rascunho: [journey2]
     }
   },
   {
@@ -258,7 +281,7 @@ export const obras = [
     descricao: 'A poster design for wine, using geometric shapes to create a bold and modern visual language.',
     midias: {
       final: [wine, wine2, wine3],
-      rascunho: []
+      rascunho: [wine4, wine5]
     }
   },
   {
@@ -272,7 +295,7 @@ export const obras = [
     descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
     midias: {
       final: [friendship],
-      rascunho: []
+      rascunho: [friendship2, friendship3]
     }
   },
   {
@@ -343,7 +366,8 @@ export const obras = [
     midias: {
       final: [brasilNaoObvio, brasilNaoObvio2, brasilNaoObvio3, brasilNaoObvio4, brasilNaoObvio5],
       rascunho: []
-    }
+    },
+    videoUrl: 'https://www.youtube.com/watch?v=AxGUaCWK_tI&ab_channel=JuliaMartins'
   },
   {
     id: 20,
@@ -356,7 +380,7 @@ export const obras = [
     descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
     midias: {
       final: [mulheres],
-      rascunho: []
+      rascunho: [mulheres2, mulheres3, mulheres4, mulheres5, mulheres6]
     }
   },
   {
