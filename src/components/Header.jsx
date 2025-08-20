@@ -3,6 +3,7 @@ import styles from './Header.module.css';
 import {Link} from 'react-router-dom';
 import Drawer from './Drawer';
 import {obras} from '../data/obras';
+import Logo from './Logo';
 
 function Header() {
   const navLinks = [
@@ -16,37 +17,17 @@ function Header() {
 
   const allTools = [...new Set(obras.flatMap(obra => obra.ferramentas))].sort();
 
-  const fonts = [
-    'Arial, sans-serif',
-    '"Times New Roman", Times, serif',
-    '"Courier New", Courier, monospace',
-    'Georgia, serif',
-    'Verdana, sans-serif'
-  ];
-
-  const [fontIndex, setFontIndex] = useState(0);
-
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const toggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);
   };
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setFontIndex(prevIndex => (prevIndex + 1) % fonts.length);
-    }, 400);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
   return (
     <header className={styles.headerContainer}>
       <div className={styles.logo}>
         <Link to="/">
-          <span style={{ fontFamily: fonts[fontIndex], transition: 'font-family 0.2s ease-in-out' }}>
-            Portfolio
-          </span>
+          <Logo />
         </Link>
       </div>
       <nav className={styles.navigation}>
