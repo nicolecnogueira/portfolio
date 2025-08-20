@@ -53,15 +53,40 @@
   margin: 0;
 }
 
-.drawerPanel a {
+.categoryLink {
   display: block;
   padding: 15px 30px;
   color: black;
   text-decoration: none;
   font-size: 1.2rem;
-  transition: background-color 0.2s;
+  transition: color 0.2s;
 }
 
-.drawerPanel a:hover {
+.categoryLink:hover {
   color: #E11DAA;
+}
+
+.toolTagsContainer {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.toolTag {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.toolTag:hover {
+  border: 1px solid #E11DAA;
+  color: #E11DAA;
+  cursor: pointer;
 }

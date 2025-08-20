@@ -1,9 +1,11 @@
 import React from 'react';
-import { obras } from '../../data/obras';
-import ObraCard from '../ObraCard';
+import { useParams } from 'react-router-dom';
+import { obras } from '../data/obras';
+import ObraCard from './ObraCard';
 import styles from './ObraLista.module.css';
 
-function ObraLista({ categoria }) {
+function ObraLista() {
+  const { categoria } = useParams();
   const obrasFiltradas = obras.filter(
     (obra) => obra.categoria.includes(categoria)
   );

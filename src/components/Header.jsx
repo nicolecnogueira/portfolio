@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './Header.module.css';
 import {Link} from 'react-router-dom';
 import Drawer from './Drawer';
+import {obras} from '../data/obras';
 
 function Header() {
   const navLinks = [
@@ -12,6 +13,8 @@ function Header() {
     { title: '3D MODELING', url: '/3d-modeling' },
     { title: 'GRAPHIC DESIGN', url: '/graphic-design' }
   ];
+
+  const allTools = [...new Set(obras.flatMap(obra => obra.ferramentas))].sort();
 
   const fonts = [
     'Arial, sans-serif',
@@ -61,7 +64,7 @@ function Header() {
         <div className={styles.line}></div>
         <div className={styles.line}></div>
       </div>
-      {isDrawerOpen && <Drawer navLinks={navLinks} onClose={toggleDrawer} />}
+      {isDrawerOpen && <Drawer navLinks={navLinks} allTools={allTools} onClose={toggleDrawer} />}
 
     </header>
   );

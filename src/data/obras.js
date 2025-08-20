@@ -109,7 +109,7 @@ export const obras = [
     tecnica: 'Digital illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['illutrator', 'Photoshop'],
+    ferramentas: ['illustrator', 'photoshop'],
     descricao: 'Set of music posters inspired by the aesthetic and mood of the Dutch duo Feng Suave.',
     midias: {
       final: [FengSuave, FengSuave2],
@@ -123,7 +123,7 @@ export const obras = [
     tecnica: 'Digital illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['Procreate'],
+    ferramentas: ['procreate'],
     descricao: 'An illustration reimagining Rome in a parallel universe—as if it were hell. This dark, surreal take distorts the city’s iconic architecture and atmosphere, blending historical grandeur with eerie, otherworldly elements to question the fine line between glory and decay.',
     midias: {
       final: [Hell],
@@ -263,7 +263,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['illustrator', 'Photoshop'],
+    ferramentas: ['illustrator', 'photoshop'],
     descricao: 'A drawing inspired by the idea of a spiritual journey, blending symbolic elements and expressive forms. The piece draws visual and narrative references from the Brazilian telenovela ”Caminho das Índias”.',
     midias: {
       final: [journey],
@@ -277,7 +277,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['illustrator', 'Photoshop'],
+    ferramentas: ['illustrator', 'photoshop'],
     descricao: 'A poster design for wine, using geometric shapes to create a bold and modern visual language.',
     midias: {
       final: [wine, wine2, wine3],
@@ -291,7 +291,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['illustrator', 'Photoshop'],
+    ferramentas: ['illustrator', 'photoshop'],
     descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
     midias: {
       final: [friendship],
@@ -333,7 +333,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['Procreate'],
+    ferramentas: ['procreate'],
     descricao: 'An educational yet playful infographic illustrating the process of how sunlight causes tanning. The design breaks down the science behind UV rays and skin response using simple language, vibrant visuals, and engaging layouts to make the information accessible and fun.',
     midias: {
       final: [light],
@@ -347,7 +347,7 @@ export const obras = [
     tecnica: '3D Modeling',
     ano: 2025,
     categoria: ['3d-modeling', 'illustration'],
-    ferramentas: ['Blender'],
+    ferramentas: ['blender'],
     descricao: 'An illustration series exploring the concept of the sublime, inspired by the experience of sunrise. Created through 3D modeling with carefully adjusted lighting and composition.',
     midias: {
       final: [sublime, sublime2, sublime3, sublime4],
@@ -361,7 +361,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2023,
     categoria: ['illustration'],
-    ferramentas: ['Procreate', 'Reaper'],
+    ferramentas: ['procreate', 'reaper'],
     descricao: 'Started in August 2023 after returning from a year abroad, this project reflects on the gap between foreign perceptions of Brazil and my lived experience. What began as digital illustrations evolved into an animation, with sound built from public domain audio and edited in Reaper.',
     midias: {
       final: [brasilNaoObvio, brasilNaoObvio2, brasilNaoObvio3, brasilNaoObvio4, brasilNaoObvio5],
@@ -376,7 +376,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2023,
     categoria: ['illustration'],
-    ferramentas: ['Procreate'],
+    ferramentas: ['procreate'],
     descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
     midias: {
       final: [mulheres],
@@ -390,7 +390,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2023,
     categoria: ['illustration'],
-    ferramentas: ['Procreate'],
+    ferramentas: ['procreate'],
     descricao: 'An illustration of a scene from Baz Luhrmann’s Romeo + Juliet, created using only blending modes to build color, depth, and atmosphere.',
     midias: {
       final: [julieta],
@@ -404,7 +404,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2023,
     categoria: ['illustration'],
-    ferramentas: ['Procreate'],
+    ferramentas: ['procreate'],
     descricao: 'A set of illustrations featuring native animals from the Brazilian Cerrado. Each piece combines geometric shapes and vibrant color gradients to celebrate the region’s unique biodiversity through a stylized and contemporary visual language.',
     midias: {
       final: [cerrado],
@@ -418,7 +418,7 @@ export const obras = [
     tecnica: 'Digital Illustration',
     ano: 2025,
     categoria: ['illustration'],
-    ferramentas: ['Illustrator'],
+    ferramentas: ['illustrator'],
     descricao: 'An illustration created for Women’s Day 2025, featuring a circular composition of girls in a gesture of unity and celebration.',
     midias: {
       final: [girlies, girlies2],
@@ -432,7 +432,7 @@ export const obras = [
     tecnica: '3D Animation',
     ano: 2023,
     categoria: ['3d-modeling'],
-    ferramentas: ['Blender'],
+    ferramentas: ['blender'],
     descricao: 'This short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
     midias: {
       final: [theRoom],
@@ -446,7 +446,7 @@ export const obras = [
     tecnica: '3D Animation',
     ano: 2023,
     categoria: ['3d-modeling'],
-    ferramentas: ['Blender'],
+    ferramentas: ['blender'],
     descricao: 'this short animation was developed using Blender and inspired by Disney’s Beauty and the Beast. It features two characters from the film, reinterpreted through 3D animation.',
     midias: {
       final: [beauty],
@@ -460,7 +460,7 @@ export const obras = [
     tecnica: 'HD, Color, Stereo',
     ano: 2023,
     categoria: ['videoart'],
-    ferramentas: ['Premiere PRO'],
+    ferramentas: ['premiere PRO'],
     descricao: 'An experimental video exploring antithesis through the female figure, inspired by the Brazilian symbolist poem Ismáliaby Alphonsus Guimaraens. While the poem depicts inner turmoil, the visuals show serene expressions. Contrasts are reinforced through complementary colors, styling, and digitally adjusted color grading. Edited in Adobe Premiere (16:9 format).',
     midias: {
       final: [antithesis],
@@ -475,7 +475,7 @@ export const obras = [
     tecnica: 'HD, Color, Black and White, Stereo',
     ano: 2023,
     categoria: ['videoart'],
-    ferramentas: ['Premiere PRO'],
+    ferramentas: ['premiere PRO'],
     descricao: 'This short film celebrates overlooked moments of everyday pleasure—like the feel of water on skin, laughter, or human touch. Told through visual vignettes, it blends black-and-white and color footage shot on DSLR with 15–45mm lenses. Minimalist direction, close-ups, and rhythmic editing encourage viewers to slow down and reconnect with simple joys. Edited and color-graded in Adobe Premiere (16:9 format).',
     midias: {
       final: [pequenosPrazeres],
@@ -490,7 +490,7 @@ export const obras = [
     tecnica: 'Graphic Design',
     ano: 2025,
     categoria: ['graphic-design'],
-    ferramentas: ['Illustrator', 'Photoshop'],
+    ferramentas: ['illustrator', 'photoshop'],
     descricao: 'Developed as a university assignment, this visual identity for San Lorenzo in da Wood, a music festival in Italy, explores the connection between body, memory, and nature. Analog drawings of human anatomy were digitally transformed into organic textures, echoing natural surfaces like bark or cracked soil. The concept blurs the line between skin and landscape, evoking touch, time, and trace. Earthy and highly saturated colors amplify emotion and materiality, guided by the idea: Reject modernity. Embrace nature (tradition).',
     midias: {
       final: [slw, slw2, slw3, slw4, slw5, slw6, slw7, slw8, slw9, slw10, slw11, slw12, slw13],
@@ -504,7 +504,7 @@ export const obras = [
     tecnica: 'Web Design',
     ano: 2025,
     categoria: ['graphic-design'],
-    ferramentas: ['Figma'],
+    ferramentas: ['figma'],
     descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. ',
     midias: {
       final: [brasilComS],
@@ -518,7 +518,7 @@ export const obras = [
     tecnica: 'Web Design',
     ano: 2025,
     categoria: ['graphic-design'],
-    ferramentas: ['Illustrator', 'Figma'],
+    ferramentas: ['illustrator', 'figma'],
     descricao: 'An interactive archive of Indigenous languages across Latin America. This map-based website highlights Indigenous languages from Latin America—some endangered, some extinct, many still alive. Each language has a dedicated page with key information, cultural context, and media. Users can explore by region and status (living, endangered, extinct) and are invited to contribute new entries through a “Contribute a Language” form. The project aims to honor and preserve linguistic and cultural heritage often silenced by colonial violence—offering a space for remembrance, education, and collective participation.',
     midias: {
       final: [forgotten, forgotten2, forgotten3],

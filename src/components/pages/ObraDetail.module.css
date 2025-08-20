@@ -53,7 +53,15 @@
   padding: 6px 16px;
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-decoration: none;
+  color: black;
   letter-spacing: 0.5px;
+}
+
+.ferramentaTag:hover {
+  border: 1px solid #E11DAA;
+  color: #E11DAA;
+  cursor: pointer;
 }
 
 .videoWrapper {

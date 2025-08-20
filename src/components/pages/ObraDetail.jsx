@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { obras } from '../../data/obras';
 import styles from './ObraDetail.module.css';
 
+const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-');
+
 function ObraDetail() {
   const { slug } = useParams();
 
@@ -27,9 +29,9 @@ function ObraDetail() {
 
         <div className={styles.ferramentas}>
         {obra.ferramentas.map((tool) => (
-          <span key={tool} className={styles.ferramentaTag}>
+          <Link key={tool} to={`/tool/${slugify(tool)}`} className={styles.ferramentaTag}>
             {tool}
-          </span>
+          </Link>
         ))}
       </div>
 
