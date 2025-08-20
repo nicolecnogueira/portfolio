@@ -1,9 +1,9 @@
 {
-  "name": "portifolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nicolecnogueira.github.io/portifolio",
+  "homepage": "https://nicolecnogueira.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -43,11 +43,11 @@ function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.logo}>
-        <a href="/">
+        <Link to="/">
           <span style={{ fontFamily: fonts[fontIndex], transition: 'font-family 0.2s ease-in-out' }}>
             Portfolio
           </span>
-        </a>
+        </Link>
       </div>
       <nav className={styles.navigation}>
         <ul>
