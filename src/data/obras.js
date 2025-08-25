@@ -60,6 +60,7 @@ import mulheres3 from '../assets/illustration/mulheres3.png';
 import mulheres4 from '../assets/illustration/mulheres4.png';
 import mulheres5 from '../assets/illustration/mulheres5.png';
 import mulheres6 from '../assets/illustration/mulheres6.png';
+import mulheresGif from '../assets/illustration/mulheres.gif';
 import julieta from '../assets/illustration/julieta.png';
 import cerrado from '../assets/illustration/cerrado.png';
 import girlies from '../assets/illustration/girlies.png';
@@ -86,9 +87,11 @@ import slw11 from '../assets/graphic-design/slw11.png';
 import slw12 from '../assets/graphic-design/slw12.png';
 import slw13 from '../assets/graphic-design/slw13.png';
 import brasilComS from '../assets/graphic-design/brasilComS.png';
+import apresBRS from '../assets/graphic-design/apresBRS.jpg';
 import forgotten from '../assets/graphic-design/forgotten.png';
 import forgotten2 from '../assets/graphic-design/forgotten2.png';
 import forgotten3 from '../assets/graphic-design/forgotten3.png';
+import gif565 from '../assets/graphic-design/565.gif';
 import NaMinhaTerraTemPalmeiras from '../assets/photography/NaMinhaTerraTemPalmeiras.png';
 import NaMinhaTerraTemPalmeiras2 from '../assets/photography/NaMinhaTerraTemPalmeiras2.png';
 import NaMinhaTerraTemPalmeiras3 from '../assets/photography/NaMinhaTerraTemPalmeiras3.png';
@@ -379,7 +382,7 @@ export const obras = [
     ferramentas: ['procreate'],
     descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
     midias: {
-      final: [mulheres],
+      final: [mulheres, mulheresGif],
       rascunho: [mulheres2, mulheres3, mulheres4, mulheres5, mulheres6]
     }
   },
@@ -507,7 +510,7 @@ export const obras = [
     ferramentas: ['figma'],
     descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. ',
     midias: {
-      final: [brasilComS],
+      final: [brasilComS, apresBRS],
       rascunho: []
     }
   },
@@ -521,7 +524,7 @@ export const obras = [
     ferramentas: ['illustrator', 'figma'],
     descricao: 'An interactive archive of Indigenous languages across Latin America. This map-based website highlights Indigenous languages from Latin America—some endangered, some extinct, many still alive. Each language has a dedicated page with key information, cultural context, and media. Users can explore by region and status (living, endangered, extinct) and are invited to contribute new entries through a “Contribute a Language” form. The project aims to honor and preserve linguistic and cultural heritage often silenced by colonial violence—offering a space for remembrance, education, and collective participation.',
     midias: {
-      final: [forgotten, forgotten2, forgotten3],
+      final: [forgotten, forgotten2, forgotten3, gif565],
       rascunho: []
     }
   }
