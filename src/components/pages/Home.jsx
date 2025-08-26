@@ -4,7 +4,7 @@ import GifHome from '../GifHome';
 import gifHome from '../../assets/gifHome.gif';
 import { obras } from '../../data/obras';
 import Logo from '../Logo';
-import ObraCard from '../ObraCard';
+import ObraCard from '../shared/ObraCard';
 import { Link } from 'react-router-dom';
 
 const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-');

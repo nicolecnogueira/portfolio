@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { obras } from '../data/obras';
+import { obras } from '../../data/obras';
 import ObraCard from './ObraCard';
 import styles from './ObraLista.module.css';
 

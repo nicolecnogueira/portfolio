@@ -2,8 +2,8 @@ import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/pages/About';
-import ObraLista from './components/ObraLista';
-import ObraListaPorFerramenta from './components/ObraListaPorFerramenta';
+import ObraLista from './components/shared/ObraLista';
+import ObraListaPorFerramenta from './components/shared/ObraListaPorFerramenta';
 import ObraDetail from './components/pages/ObraDetail';
 import Footer from './components/Footer';
 import Home from './components/pages/Home'

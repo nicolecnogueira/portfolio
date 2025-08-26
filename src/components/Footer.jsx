@@ -5,7 +5,7 @@ import { BiLogoBehance } from 'react-icons/bi';
 import { FaInstagram, FaPinterestP } from 'react-icons/fa';
 import { IoLogoLinkedin } from 'react-icons/io';
 
-import logo2 from '../../public/logo2.png';
+import logo2 from '../assets/logo2.png'
 
 function Footer() {
   const socialLinks = [
