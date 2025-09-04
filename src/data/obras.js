@@ -500,7 +500,7 @@ export const obras = [
   {
     id: 27,
     slug: 'pequenos-prazeres',
-    titulo: 'Prequenos Prazeres',
+    titulo: 'Pequenos Prazeres',
     tecnica: 'HD, Color, Black and White, Stereo',
     ano: 2023,
     categoria: ['videoart'],
