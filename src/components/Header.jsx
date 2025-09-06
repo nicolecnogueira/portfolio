@@ -9,10 +9,10 @@ function Header() {
   const navLinks = [
     { title: 'ABOUT', url: '/about' },
     { title: 'ILLUSTRATION', url: '/illustration' },
+    { title: 'GRAPHIC DESIGN', url: '/graphic-design' },
     { title: 'PHOTOGRAPHY', url: '/photography' },
-    { title: 'VIDEOART', url: '/videoart' },
     { title: '3D MODELING', url: '/3d-modeling' },
-    { title: 'GRAPHIC DESIGN', url: '/graphic-design' }
+    { title: 'VIDEOART', url: '/videoart' },
   ];
 
   const allTools = [...new Set(obras.flatMap(obra => obra.ferramentas))].sort();
