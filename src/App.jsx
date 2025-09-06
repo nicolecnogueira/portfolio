@@ -7,11 +7,13 @@ import ObraListaPorFerramenta from './components/shared/ObraListaPorFerramenta';
 import ObraDetail from './components/pages/ObraDetail';
 import Footer from './components/Footer';
 import Home from './components/pages/Home'
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <div>
       <Header />
+      <Toaster />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
