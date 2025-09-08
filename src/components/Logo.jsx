@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react';
 import styles from './Logo.module.css';
 
 const fonts = [
-  'Arial, sans-serif',
-  '"Times New Roman", Times, serif',
-  '"Courier New", Courier, monospace',
-  'Georgia, serif',
-  'Verdana, sans-serif'
+  '"Inter", sans-serif',
+  '"ZCOOL KuaiLe", sans-serif',
+  '"Tilt Warp", sans-serif',
+  '"Jersey 10", sans-serif',
+  '"Gemunu Libre", sans-serif',
+  '"Fraunces", serif',
+  '"Workbench", sans-serif',
+  '"Maragsa", serif'
 ];
 
 function Logo() {

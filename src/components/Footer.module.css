@@ -10,7 +10,8 @@
 
 .title {
   font-size:larger;
-  font-weight:lighter;
+  font-family: 'Inter';
+  font-weight:400;
   color: #fff;
   padding: 0px 35px;
   max-width: 1200px;
@@ -36,6 +37,8 @@
   align-items: center;
   text-decoration: none;
   color: #fff;
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: clamp(0.85rem, 2vw, 1rem);
   transition: color 0.2s ease;
 

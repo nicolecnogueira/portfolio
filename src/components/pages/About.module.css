@@ -60,6 +60,8 @@
 .contentCard p {
   margin-bottom: 1em;
   line-height: 1.6;
+  font-family: 'Inter';
+  font-weight: 400;
 }
 
 .contentCard p:last-child {

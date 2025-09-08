@@ -60,6 +60,8 @@
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s;
+  font-family: 'Inter';
+  font-weight: 400;
 }
 
 .categoryLink:hover {
@@ -79,6 +81,8 @@
   border-radius: 20px;
   padding: 6px 16px;
   font-size: 0.8rem;
+  font-family: 'Inter';
+  font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
