@@ -1,12 +1,45 @@
-# React + Vite
+# Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portfólio web dinâmico para a artista multimédia Julia Martins, desenvolvido para apresentar os seus trabalhos. O site foi construído com foco numa estética moderna e minimalista, com animações e interações personalizadas.
 
-Currently, two official plugins are available:
+**Link para o site:** [www.juliamartinsa.com](https://www.juliamartinsa.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+* **Logo com Animação de Fontes:** A identidade visual do site inclui uma logo que troca de fonte ciclicamente.
+* **Navegação Responsiva:** O site apresenta um menu de navegação completo em ecrãs maiores e um menu "hambúrguer" com um painel lateral (drawer) em ecrãs menores.
+* **Galeria de Obras Dinâmica:** As obras são carregadas a partir de um ficheiro de dados central (`obras.js`), funcionando como um "mini banco de dados".
+* **Filtragem por Categoria e Ferramenta:** Os utilizadores podem navegar pelas obras através de páginas de categoria (ex: Ilustração, Fotografia) ou páginas de ferramentas (ex: Figma, Photoshop), todas geradas dinamicamente.
+* **Páginas de Detalhe:** Cada obra possui uma página de detalhe individual com descrição, ano, técnica e outras informações.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Como Executar o Projeto Localmente
+
+Para clonar e executar este projeto na sua máquina local, siga os passos abaixo.
+
+### Pré-requisitos
+
+* [Node.js](https://nodejs.org/) (versão 18 ou superior)
+* npm (geralmente instalado com o Node.js)
+
+### Passos
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/nicolecnogueira/portfolio.git
+    ```
+
+2.  **Navegue para a pasta do projeto:**
+    ```bash
+    cd portfolio
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
