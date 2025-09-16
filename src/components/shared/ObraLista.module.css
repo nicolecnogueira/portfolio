@@ -1,5 +1,5 @@
 .listaContainer {
-  padding: 40px;
+  padding: 20px;
   background-color: #000;
   color: #fff;
   min-height: 100vh;
@@ -7,6 +7,12 @@
 
 .gridObras {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 1000px) {
+  .gridObras {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
