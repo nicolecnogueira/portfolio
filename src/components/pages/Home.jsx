@@ -22,9 +22,11 @@ function Home() {
       </div>
 
       <div className={styles.infoSection}>
-        <span className={styles.myText}>my</span>
+        <div className={styles.titleContainer}>
+          <span className={styles.myText}>my</span>
         <div className={styles.logoWrapper}>
           <Logo />
+        </div>
         </div>
         <div className={styles.tagsContainer}>
           {allTools.map(tool => (

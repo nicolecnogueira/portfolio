@@ -21,21 +21,37 @@
 
 .infoSection {
   text-align: center;
-  padding: 40px 20px;
-  margin-top: -30px;
+  padding-top: 30px;
   position: relative;
   z-index: 2;
+}
+
+.titleContainer {
+  position: relative; 
+  display: inline-block; 
+  margin-bottom: 20px;
 }
 
 .myText {
   font-size: 1rem;
   color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  --pos-x-grande: -180px;
+  --pos-y-grande: -60px;
+  --pos-x-pequeno: -100px;
+  --pos-y-pequeno: -40px;
+  transform: translate(
+    clamp(var(--pos-x-grande), calc(-85px + -10vw), var(--pos-x-pequeno)),
+    
+    clamp(var(--pos-y-grande), calc(-30px + -4vw), var(--pos-y-pequeno))
+  );
 }
 
 .logoWrapper {
-  font-size: 4rem;
+  font-size: clamp(30px, 10vw, 70px);
   font-weight: bold;
-  margin: -10px 0 20px;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -48,9 +64,14 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .tag {
+  flex-grow: 0;
+  flex-shrink: 0;
+  white-space: nowrap;
   border: 1px solid black;
   border-radius: 20px;
   padding: 6px 16px;
@@ -70,7 +91,8 @@
 }
 
 .latestWorkSection {
-  padding: 40px;
+  padding: clamp(10px, 2vw, 40px);
+  margin-bottom: 20px;
 }
 
 .latestWorkTitle {
