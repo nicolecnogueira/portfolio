@@ -53,6 +53,7 @@
   padding: 30px 40px;
   border-radius: 20px;
   max-width: 500px;
+  width: clamp(250px, 50vw, 500px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 2);
   text-align: left;
 }
