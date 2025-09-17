@@ -39,7 +39,7 @@ function About() {
   ];
   const marqueeLines = marqueeText.map((text, index) => (
     <div key={index} className={styles.marqueeLine}>
-      <span>{text.repeat(5)}</span>
+      <span>{text.repeat(3)}</span>
     </div>
   ));
 
