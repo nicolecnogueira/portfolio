@@ -38,8 +38,9 @@
   box-shadow: -5px 0 15px rgba(0,0,0,0.2);
   transform: translateX(100%);
   animation: slide-in 0.3s forwards;
-  padding-top: 60px;
+  padding-top: 100px;
   z-index: 100;
+  text-align: center;
 }
 
 @keyframes slide-in {
@@ -58,7 +59,7 @@
   padding: 15px 30px;
   color: black;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
   transition: color 0.2s;
   font-family: 'Inter';
   font-weight: 400;
@@ -70,10 +71,13 @@
 
 .toolTagsContainer {
   padding-top: 30px;
-  padding-left: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .toolTag {
