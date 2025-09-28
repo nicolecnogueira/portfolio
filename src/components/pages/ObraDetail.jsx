@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { obras } from '../../data/obras';
 import styles from './ObraDetail.module.css';
@@ -7,12 +7,22 @@ const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-');
 
 function ObraDetail() {
   const { slug } = useParams();
-
+  const [imagemAtualIndex, setImagemAtualIndex] = useState(0);
   const obra = obras.find((o) => o.slug === slug);
 
   if (!obra) {
     return <div>Obra não encontrada!</div>;
   }
+
+  const proximaImagem = () => {
+    // Usa o módulo (%) para voltar à primeira imagem depois da última
+    setImagemAtualIndex((prevIndex) => (prevIndex + 1) % obra.midias.final.length);
+  };
+
+  const imagemAnterior = () => {
+    // Lógica para voltar à última imagem ao clicar em "anterior" na primeira
+    setImagemAtualIndex((prevIndex) => (prevIndex - 1 + obra.midias.final.length) % obra.midias.final.length);
+  };
 
   return (
     <div className={styles.detalheContainer}>
@@ -42,8 +52,6 @@ function ObraDetail() {
       <div className={styles.mediaContainer}>
         
         {obra.categoria.includes('videoart')  ? (
-
-          
           (() => {
             const url = new URL(obra.videoUrl);
             const videoId = url.searchParams.get('v');
@@ -78,10 +86,21 @@ function ObraDetail() {
 
             <div className={styles.mediaSection}>
               <h2 className={styles.mediaSectionTitle}>Final Version</h2>
-              <div className={styles.galleryGrid}>
-                {obra.midias.final.map((imagem, index) => (
-                  <img key={index} src={imagem} alt={`${obra.titulo} - imagem ${index + 1}`} />
-                ))}
+                <div className={styles.sliderContainer}>
+                  <img 
+                    key={imagemAtualIndex} 
+                    src={obra.midias.final[imagemAtualIndex]} 
+                    alt={`${obra.titulo} - imagem ${imagemAtualIndex + 1}`}
+                    className={styles.sliderImage}/>
+                  {obra.midias.final.length > 1 && (
+                    <>
+                      <button onClick={imagemAnterior} className={`${styles.navButton} ${styles.prev}`}>&#10094;</button>
+                      <button onClick={proximaImagem} className={`${styles.navButton} ${styles.next}`}>&#10095;</button>
+                      <div className={styles.imageCounter}>
+                        {imagemAtualIndex + 1} / {obra.midias.final.length}
+                      </div>
+                    </>
+                  )}
               </div>
             </div>
           </>
