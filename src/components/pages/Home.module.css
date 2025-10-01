@@ -1,7 +1,7 @@
 .gifSection {
   position: relative;
   width: 100%;
-  height: 120vh;
+  height: 80vh;
 }
 
 .gifImage {
@@ -96,10 +96,12 @@
 }
 
 .latestWorkTitle {
-  font-size: 2rem;
+  font-size:larger;
+  font-family: 'Inter';
+  font-weight:400;
   color: black;
-  margin-bottom: 20px;
-  font-weight: lighter;
+  padding: 0px 35px;
+  max-width: 1200px;
 }
 
 .latestWorkGrid {

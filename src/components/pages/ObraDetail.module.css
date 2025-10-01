@@ -7,6 +7,16 @@
 .mediaContainer { 
     flex: 2; 
 }
+
+.mediaSectionTitle {
+  font-size:larger;
+  font-family: 'Inter';
+  font-weight:400;
+  color: black;
+  padding: 0px 35px;
+  max-width: 1200px;
+}
+
 .mediaContainer img, .mediaContainer video { 
     max-width: 100%; 
 }

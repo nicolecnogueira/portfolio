@@ -48,7 +48,7 @@ function About() {
       <div className={styles.marqueeBackground}>
         {marqueeLines}
       </div>
-
+      <div className={styles.gradientOverlay}></div>
       <div className={styles.contentCard}>
         <p>
           Hi, I’m Julia, a multimedia artist with roots in Brazil and no fixed coordinates (for now).
