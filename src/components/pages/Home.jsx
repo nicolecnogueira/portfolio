@@ -12,7 +12,14 @@ const slugify = (text) => text.toString().toLowerCase().replace(/\s+/g, '-');
 function Home() {
   const latestWorks = obras.slice(-3).reverse();
 
-  const allTools = [...new Set(obras.flatMap(obra => obra.ferramentas))].sort();
+  const allToolInstances = obras.flatMap(obra => obra.ferramentas);
+
+  const toolCounts = allToolInstances.reduce((counts, tool) => {
+    counts[tool] = (counts[tool] || 0) + 1;
+    return counts;
+  }, {});
+
+  const allTools = Object.keys(toolCounts).sort((a, b) => toolCounts[b] - toolCounts[a]);
 
   return (
     <div className={styles.homeContainer}>
