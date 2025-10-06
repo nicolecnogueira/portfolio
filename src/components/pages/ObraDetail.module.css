@@ -9,12 +9,12 @@
 }
 
 .mediaSectionTitle {
-  font-size:larger;
-  font-family: 'Inter';
-  font-weight:400;
-  color: black;
-  padding: 0px 35px;
-  max-width: 1200px;
+    font-size:larger;
+    font-family: 'Inter';
+    font-weight:400;
+    color: black;
+    padding-bottom: 20px;
+    max-width: 1200px;
 }
 
 .mediaContainer img, .mediaContainer video { 
@@ -26,153 +26,224 @@
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
 }
 
 .header h1 {
-  font-family: 'Fraunces', 'Times New Roman', serif;
-  font-size: clamp(3.5rem, 1rem + 8vw, 6rem);
-  font-weight: bold;
-  margin: 0;
-  line-height: 0.9;
-  color: black;
+    font-family: 'Fraunces', 'Times New Roman', serif;
+    font-size: clamp(3.5rem, 1rem + 8vw, 6rem);
+    font-weight: bold;
+    margin: 0;
+    line-height: 0.9;
+    color: black;
 }
 
 .metaInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-top: 1rem;
-  font-size: 1rem;
-  font-family: 'Inter';
-  font-weight: 400;
-  color: black;
-  text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: black;
+    text-align: right;
 }
 
 .ferramentas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2rem;
 }
 
 .ferramentaTag {
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 6px 16px;
-  font-size: 0.8rem;
-  font-family: 'Inter';
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  letter-spacing: 0.5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.8rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.5px;
 }
 
 .ferramentaTag:hover {
-  border: 1px solid #E11DAA;
-  color: #E11DAA;
-  cursor: pointer;
+    border: 1px solid #E11DAA;
+    color: #E11DAA;
+    cursor: pointer;
 }
 
 .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 .videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .descricao{
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: large;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: large;
 }
 
 .galleryGrid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
 .galleryGrid img {
-  height: 250px;
-  width: auto;
+    height: 250px;
+    width: auto;
+    cursor: zoom-in;
 }
 
-
 .sliderContainer {
-  position: relative;
-  width: 100%;
-  height: 75vh; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 75vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sliderImage {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; 
-  display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; 
+    display: block;
+    cursor: zoom-in;
 }
 
 .navButton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  border: none;
-  font-size: 24px;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    z-index: 10;
 }
 
 .navButton:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .prev {
-  left: 20px;
+    left: 20px;
 }
 
 .next {
-  right: 20px;
+    right: 20px;
 }
 
 .imageCounter {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 5px 12px;
-  border-radius: 15px;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+.layoutLadoALado {
+    display: flex;
+    gap: 30px; 
+    align-items: flex-start;
+}
+
+.layoutLadoALado .mediaSection {
+    flex: 1; 
+}
+
+.imagemFinalUnica {
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    border-radius: 4px;
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modalContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalImage {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.closeButton {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.closeButton:hover {
+    background-color: #f0f0f0;
 }
