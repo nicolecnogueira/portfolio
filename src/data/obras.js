@@ -206,7 +206,7 @@ export const obras = [
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
     midias: {
       capa: coffee,
-      final: [coffee2, coffee3, coffee4, coffee5, coffee6, coffee10, coffee7, coffee8],
+      final: [coffee2, coffee3, coffee4, coffee5, coffee6, coffee7, coffee8],
       rascunho:[coffee9, coffee10]
     }
   },
