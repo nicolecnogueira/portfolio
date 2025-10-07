@@ -10,13 +10,14 @@ import construcao from '../assets/illustration/coloridas/construcao.png';
 import blue from '../assets/illustration/blue/blue.png';
 import blue2 from '../assets/illustration/blue/blue2.png';
 import coffee from '../assets/illustration/coffee/coffee.png';
-import coffee2 from '../assets/illustration/coffee/coffee2.png';
-import coffee3 from '../assets/illustration/coffee/coffee3.png';
-import coffee4 from '../assets/illustration/coffee/coffee4.png';
-import coffee5 from '../assets/illustration/coffee/coffee5.png';
-import coffee6 from '../assets/illustration/coffee/coffee6.png';
-import coffee7 from '../assets/illustration/coffee/coffee7.png';
-import coffee8 from '../assets/illustration/coffee/coffee8.png';
+import coffee1 from '../assets/illustration/coffee/coffee1.jpg';
+import coffee2 from '../assets/illustration/coffee/coffee2.jpg';
+import coffee3 from '../assets/illustration/coffee/coffee3.jpg';
+import coffee4 from '../assets/illustration/coffee/coffee4.jpg';
+import coffee5 from '../assets/illustration/coffee/coffee5.jpg';
+import coffee6 from '../assets/illustration/coffee/coffee6.jpg';
+import coffee7 from '../assets/illustration/coffee/coffee7.jpg';
+import coffee8 from '../assets/illustration/coffee/coffee8.jpg';
 import coffee9 from '../assets/illustration/coffee/coffee9.png';
 import coffee10 from '../assets/illustration/coffee/coffee10.png';
 import jare from '../assets/illustration/jare/jare.png';
@@ -207,7 +208,7 @@ export const obras = [
     descricao: 'A set of icons designed for a coffee shop, following the brand’s visual identity. The project focused on using the established color palette and incorporating the brand’s wave-shaped signature element to ensure visual coherence and recognizability.',
     midias: {
       capa: coffee,
-      final: [coffee2, coffee3, coffee4, coffee5, coffee6, coffee7, coffee8],
+      final: [coffee1, coffee2, coffee3, coffee4, coffee5, coffee6, coffee7, coffee8],
       rascunho:[coffee9, coffee10]
     }
   },
