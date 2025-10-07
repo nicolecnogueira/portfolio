@@ -35,14 +35,17 @@ import things3 from '../assets/illustration/things/things3.png';
 import justSomeLines from '../assets/illustration/justSomeLines/justSomeLines.png';
 import justSomeLines2 from '../assets/illustration/justSomeLines/justSomeLines2.png';
 import justSomeLines3 from '../assets/illustration/justSomeLines/justSomeLines3.png';
-import journey from '../assets/illustration/journey/journey.png';
+import journey from '../assets/illustration/journey/journey.jpg';
 import journey2 from '../assets/illustration/journey/journey2.png';
 import wine from '../assets/illustration/wine/wine.png';
 import wine2 from '../assets/illustration/wine/wine2.png';
 import wine3 from '../assets/illustration/wine/wine3.png';
 import wine4 from '../assets/illustration/wine/wine4.png';
 import wine5 from '../assets/illustration/wine/wine5.png';
-import friendship from '../assets/illustration/friendship/friendship.png';
+import friendship from '../assets/illustration/friendship/friendship.jpg';
+import friendship4 from '../assets/illustration/friendship/friendship4.jpg';
+import friendship5 from '../assets/illustration/friendship/friendship5.jpg';
+import friendship6 from '../assets/illustration/friendship/friendship6.jpg';
 import friendship2 from '../assets/illustration/friendship/friendship2.png';
 import friendship3 from '../assets/illustration/friendship/friendship3.png';
 import shelf from '../assets/illustration/shelf/shelf.png';
@@ -64,7 +67,7 @@ import mulheres5 from '../assets/illustration/mulheres/mulheres5.png';
 import mulheres6 from '../assets/illustration/mulheres/mulheres6.png';
 import mulheresGif from '../assets/illustration/mulheres/mulheres.gif';
 import julieta from '../assets/illustration/julieta/julieta.png';
-import cerrado from '../assets/illustration/cerrado/cerrado.png';
+import cerrado from '../assets/illustration/cerrado/cerrado.jpg';
 import girlies from '../assets/illustration/girlies/girlies.png';
 import girlies2 from '../assets/illustration/girlies/girlies2.png';
 import theRoom from '../assets/3d-modeling/theRoom/theRoom.png';
@@ -313,7 +316,7 @@ export const obras = [
     descricao: 'An illustration about long-distance friendship, inspired by Letters to a Young Poet by Rainer Maria Rilke. The work draws specifically from the passage: “If what is close to you is far, then you are just beginning to create a space around you that is wide indeed and already among the stars.” The visual narrative explores distance not as separation, but as expansion, an emotional space where connection transforms and deepens across time and space.',
     midias: {
       capa: friendship,
-      final: [friendship],
+      final: [friendship, friendship4, friendship5, friendship6],
       rascunho: [friendship2, friendship3]
     }
   },
