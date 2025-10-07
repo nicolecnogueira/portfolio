@@ -226,9 +226,9 @@
 
 .closeButton {
     position: absolute;
-    top: -15px;
+    top: -5px;
     right: -5px;
-    background: white;
+    background: transparent;
     color: black;
     border: none;
     border-radius: 50%;
@@ -241,9 +241,8 @@
     align-items: center;
     justify-content: center;
     line-height: 1;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 .closeButton:hover {
-    background-color: #f0f0f0;
+    color: white;
 }
