@@ -6,6 +6,7 @@ import Hell from '../assets/illustration/hell/Hell.jpg';
 import coloridas from '../assets/illustration/coloridas/coloridas.png';
 import oMundoEUmMoinho from '../assets/illustration/coloridas/oMundoEUmMoinho.png';
 import naquelaMesa from '../assets/illustration/coloridas/naquelaMesa.png';
+import construcao from '../assets/illustration/coloridas/construcao.png';
 import blue from '../assets/illustration/blue/blue.png';
 import blue2 from '../assets/illustration/blue/blue2.png';
 import coffee from '../assets/illustration/coffee/coffee.png';
@@ -176,7 +177,7 @@ export const obras = [
     descricao: 'This project presents visual interpretations of four iconic Brazilian songs: “Tiro ao Álvaro” by Adoniran Barbosa, “Construção” by Chico Buarque, “O Mundo é um Moinho” by Cartola, and “Naquela Mesa” by Nelson Gonçalves.',
     midias: {
       capa: coloridas,
-      final: [coloridas, oMundoEUmMoinho, naquelaMesa],
+      final: [coloridas, oMundoEUmMoinho, naquelaMesa, construcao],
       rascunho: []
     }
   },
