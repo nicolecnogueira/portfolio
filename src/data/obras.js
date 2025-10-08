@@ -23,7 +23,7 @@ import coffee10 from '../assets/illustration/coffee/coffee10.png';
 import jare from '../assets/illustration/jare/jare.png';
 import jare2 from '../assets/illustration/jare/jare2.png';
 import jare3 from '../assets/illustration/jare/jare3.png';
-import magic from '../assets/illustration/magic/magic.png';
+import magic from '../assets/illustration/magic/magic.jpg';
 import magic2 from '../assets/illustration/magic/magic2.png';
 import magic3 from '../assets/illustration/magic/magic3.png';
 import magic4 from '../assets/illustration/magic/magic4.png';
@@ -50,11 +50,13 @@ import friendship2 from '../assets/illustration/friendship/friendship2.png';
 import friendship3 from '../assets/illustration/friendship/friendship3.png';
 import shelf from '../assets/illustration/shelf/shelf.png';
 import macunaima from '../assets/illustration/macunaima/macunaima.png';
-import macunaima2 from '../assets/illustration/macunaima/macunaima2.png';
-import macunaima3 from '../assets/illustration/macunaima/macunaima3.png';
-import macunaima4 from '../assets/illustration/macunaima/macunaima4.png';
-import light from '../assets/illustration/light/light.png';
-import brasilNaoObvio from '../assets/illustration/brasilNaoObvio/brasilNaoObvio.png';
+import macunaima2 from '../assets/illustration/macunaima/macunaima2.jpg';
+import macunaima3 from '../assets/illustration/macunaima/macunaima3.jpg';
+import macunaima4 from '../assets/illustration/macunaima/macunaima4.jpg';
+import macunaima5 from '../assets/illustration/macunaima/macunaima5.jpg';
+import macunaima6 from '../assets/illustration/macunaima/macunaima6.png';
+import light from '../assets/illustration/light/light.jpg';
+import brasilNaoObvio from '../assets/illustration/brasilNaoObvio/brasilNaoObvio.jpg';
 import brasilNaoObvio2 from '../assets/illustration/brasilNaoObvio/brasilNaoObvio2.png';
 import brasilNaoObvio3 from '../assets/illustration/brasilNaoObvio/brasilNaoObvio3.png';
 import brasilNaoObvio4 from '../assets/illustration/brasilNaoObvio/brasilNaoObvio4.png';
@@ -241,7 +243,7 @@ export const obras = [
     descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
     midias: {
       capa: magic2,
-      final: [magic2, magic3, magic, magic4],
+      final: [magic3, magic, magic4, magic2],
       rascunho: [magic5, magic6]
     }
   },
@@ -346,7 +348,7 @@ export const obras = [
     descricao: 'A book cover illustration for Macunaíma by Mário de Andrade, inspired by the guaraná plant to evoke the novel’s indigenous roots and mythical essence. ',
     midias: {
       capa: macunaima,
-      final: [macunaima, macunaima2, macunaima3, macunaima4],
+      final: [macunaima, macunaima2, macunaima3, macunaima4, macunaima5, macunaima6],
       rascunho: []
     }
   },
