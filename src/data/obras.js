@@ -110,6 +110,11 @@ import NaMinhaTerraTemPalmeiras8 from '../assets/photography/NaMinhaTerraTemPalm
 import TNDR from '../assets/photography/TNDR/TNDR.jpg';
 import TNDR2 from '../assets/photography/TNDR/TNDR2.png';
 import TNDR3 from '../assets/photography/TNDR/TNDR3.png';
+import TNDR4 from '../assets/photography/TNDR/TNDR4.jpg';
+import TNDR5 from '../assets/photography/TNDR/TNDR5.jpg';
+import TNDR6 from '../assets/photography/TNDR/TNDR6.jpg';
+import TNDR7 from '../assets/photography/TNDR/TNDR7.jpg';
+import TNDR8 from '../assets/photography/TNDR/TNDR8.jpg';
 
 export const obras = [
   {
@@ -153,7 +158,7 @@ export const obras = [
     descricao: 'Developed for Henrique Bonini’s portfolio, TNDR explores the tension between nature and modernity through brutalist aesthetics and natural tones. Shot at the Calouste Gulbenkian Foundation and in studio using Fujifilm XT-30 II and Nikon D850, the project blends color precision with compositional strength. Post-production and layout were completed using Photoshop, Lightroom, and InDesign. Final images are high-resolution (300 ppi); the printed book measures 210×297 mm.',
     midias: {
       capa: TNDR,
-      final: [TNDR, TNDR2, TNDR3],
+      final: [TNDR, TNDR2, TNDR3, TNDR4, TNDR5, TNDR6, TNDR7, TNDR8],
       rascunho: []
     }
   },
