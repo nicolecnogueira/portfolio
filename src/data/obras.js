@@ -1,4 +1,5 @@
 import FengSuave from '../assets/illustration/fengSuave/FengSuave.jpg';
+import FengSuaveCapa from '../assets/illustration/fengSuave/FengSuaveCapa.jpg';
 import FengSuave2 from '../assets/illustration/fengSuave/FengSuave2.png';
 import FengSuave3 from '../assets/illustration/fengSuave/FengSuave3.png';
 import FengSuave4 from '../assets/illustration/fengSuave/FengSuave4.png';
@@ -24,6 +25,7 @@ import jare from '../assets/illustration/jare/jare.png';
 import jare2 from '../assets/illustration/jare/jare2.png';
 import jare3 from '../assets/illustration/jare/jare3.png';
 import magic from '../assets/illustration/magic/magic.jpg';
+import magicCapa from '../assets/illustration/magic/magicCapa.jpg';
 import magic2 from '../assets/illustration/magic/magic2.png';
 import magic3 from '../assets/illustration/magic/magic3.png';
 import magic4 from '../assets/illustration/magic/magic4.png';
@@ -33,6 +35,7 @@ import things from '../assets/illustration/things/things.png';
 import things2 from '../assets/illustration/things/things2.png';
 import things3 from '../assets/illustration/things/things3.png';
 import justSomeLines from '../assets/illustration/justSomeLines/justSomeLines.png';
+import justSomeLinesCapa from '../assets/illustration/justSomeLines/justSomeLinesCapa.png';
 import justSomeLines2 from '../assets/illustration/justSomeLines/justSomeLines2.png';
 import justSomeLines3 from '../assets/illustration/justSomeLines/justSomeLines3.png';
 import journey from '../assets/illustration/journey/journey.jpg';
@@ -56,6 +59,7 @@ import macunaima4 from '../assets/illustration/macunaima/macunaima4.jpg';
 import macunaima5 from '../assets/illustration/macunaima/macunaima5.jpg';
 import macunaima6 from '../assets/illustration/macunaima/macunaima6.png';
 import light from '../assets/illustration/light/light.jpg';
+import lightCapa from '../assets/illustration/light/lightCapa.jpg';
 import brasilNaoObvio from '../assets/illustration/brasilNaoObvio/brasilNaoObvio.jpg';
 import brasilNaoObvio2 from '../assets/illustration/brasilNaoObvio/brasilNaoObvio2.png';
 import brasilNaoObvio3 from '../assets/illustration/brasilNaoObvio/brasilNaoObvio3.png';
@@ -127,7 +131,7 @@ export const obras = [
     ferramentas: ['illustrator', 'photoshop'],
     descricao: 'Set of music posters inspired by the aesthetic and mood of the Dutch duo Feng Suave.',
     midias: {
-      capa: FengSuave,
+      capa: FengSuaveCapa,
       final: [FengSuave, FengSuave2],
       rascunho: [FengSuave3, FengSuave4]
     }
@@ -247,7 +251,7 @@ export const obras = [
     ferramentas: ['illustrator'],
     descricao: 'A set of icons designed for a fictional magic school. Each icon represents different elements of the magical universe, like potions, spells, and enchanted creatures, combining a playful visual style with a cohesive graphic language.',
     midias: {
-      capa: magic2,
+      capa: magicCapa,
       final: [magic3, magic, magic4, magic2],
       rascunho: [magic5, magic6]
     }
@@ -277,7 +281,7 @@ export const obras = [
     ferramentas: ['illustrator'],
     descricao: 'A visual exploration focused entirely on the use of lines to create form, texture, and depth.',
     midias: {
-      capa: justSomeLines,
+      capa: justSomeLinesCapa,
       final: [justSomeLines],
       rascunho: [justSomeLines2, justSomeLines3]
     }
@@ -367,7 +371,7 @@ export const obras = [
     ferramentas: ['procreate'],
     descricao: 'An educational yet playful infographic illustrating the process of how sunlight causes tanning. The design breaks down the science behind UV rays and skin response using simple language, vibrant visuals, and engaging layouts to make the information accessible and fun.',
     midias: {
-      capa: light,
+      capa: lightCapa,
       final: [light],
       rascunho: []
     }
@@ -414,8 +418,8 @@ export const obras = [
     descricao: 'This project began as a static illustration of a character immersed in a gradient study. Then it progressed to an animated loop.',
     midias: {
       capa: mulheres,
-      final: [mulheresGif],
-      rascunho: [mulheres2, mulheres3, mulheres4, mulheres5, mulheres6]
+      final: [mulheresGif, mulheres2, mulheres3, mulheres4, mulheres5, mulheres6],
+      rascunho: []
     }
   },
   {
