@@ -24,11 +24,6 @@
   padding: 10px 40px;
   padding-bottom: 20px;
   font-weight: lighter;
-
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
 }
 
 .socialGrid {
@@ -71,3 +66,17 @@
   width: clamp(50px, 10vw, 70px);
   height: auto;
 }
+
+@media (max-width: 768px) {
+    .footerLogo {
+      width: 50px;
+    }
+
+    .socialLink {
+      font-size: 0.8rem;
+    }
+
+    .mainContent {
+      padding: 5px 10px 10px;
+    }
+  }
