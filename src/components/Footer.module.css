@@ -24,6 +24,11 @@
   padding: 10px 40px;
   padding-bottom: 20px;
   font-weight: lighter;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
 }
 
 .socialGrid {
