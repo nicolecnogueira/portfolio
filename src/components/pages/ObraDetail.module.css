@@ -118,7 +118,7 @@
 .sliderContainer {
     position: relative;
     width: 100%;
-    height: 75vh; 
+    aspect-ratio: 4 / 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,18 +183,34 @@
 .layoutLadoALado {
     display: flex;
     gap: 30px; 
-    align-items: flex-start;
+    align-items: stretch;
+    max-height: 80vh; 
+    padding-bottom: 80px;
 }
 
 .layoutLadoALado .mediaSection {
     flex: 1; 
 }
 
+.layoutLadoALado .galleryGrid {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    gap: 15px;
+}
+
+.layoutLadoALado .galleryGrid img,
 .imagemFinalUnica {
+    object-fit: contain; 
     width: 100%;
-    height: auto;
+    height: 100%;
     cursor: zoom-in;
     border-radius: 4px;
+}
+
+.layoutLadoALado .galleryGrid img {
+    flex: 1;
+    min-height: 0;
 }
 
 .modalOverlay {
@@ -248,22 +264,27 @@
 }
 
 @media (max-width: 768px) {
-  .detalheContainer {
-    padding: 20px;
-  }
+    .detalheContainer {
+        padding: 20px;
+    }
 
-  .header {
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+    .header {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-  .header h1 {
-    font-size: clamp(2.5rem, 1rem + 7vw, 3.5rem); 
-  }
+    .header h1 {
+        font-size: clamp(2.5rem, 1rem + 7vw, 3.5rem); 
+    }
 
-  .metaInfo {
-    font-size: 0.6rem;
-    justify-content: flex-end;
-    right: auto;
-  }
+    .metaInfo {
+        font-size: 0.6rem;
+        justify-content: flex-end;
+        right: auto;
+    }
+
+    .layoutLadoALado {
+        flex-direction: column;
+        max-height: none;
+    }
 }
