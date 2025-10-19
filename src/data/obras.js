@@ -553,7 +553,7 @@ export const obras = [
     ano: 2025,
     categoria: ['graphic-design'],
     ferramentas: ['figma'],
-    descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. ',
+    descricao: 'This project explores a visual approach that avoids stereotypical representations of Brazil. The identity uses bold colors and vertical layouts, combining retro-digital graphic elements with strong, eye-catching typography. The website, designed in Figma, features a simple structure with key festival information organized into sections: lineup, artists, food, tickets, and partners. For a better view, see <a href="https://www.behance.net/gallery/232238597/BRS" target="_blank" rel="noopener noreferrer">my Behance</a>. ',
     midias: {
       capa: brasilComS,
       final: [apresBRS],

@@ -54,7 +54,7 @@ function ObraDetail() {
                 </Link>
             ))}
             </div>
-            <p className={styles.descricao}>{obra.descricao}</p>
+            <div className={styles.descricao} dangerouslySetInnerHTML={{ __html: obra.descricao }}/>
         </div>
 
         <div className={styles.mediaContainer}>

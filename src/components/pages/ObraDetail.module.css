@@ -79,6 +79,15 @@
     cursor: pointer;
 }
 
+.descricao a {
+  color: #E11DAA;
+  text-decoration: none;
+}
+
+.descricao a:hover {
+  color: black;
+}
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
