@@ -40,7 +40,7 @@
 .cardTitle {
   color: white;
   font-family: 'Fraunces', 'Times New Roman', Times, serif;
-  font-size: clamp(1.2rem, 16cqw, 5rem);
+  font-size: clamp(1rem, 15cqw, 5rem);
   font-weight: bold;
   padding: 10px;
   position: absolute;
