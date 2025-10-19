@@ -42,7 +42,7 @@
   font-family: 'Fraunces', 'Times New Roman', Times, serif;
   font-size: clamp(1rem, 15cqw, 5rem);
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   position: absolute;
   bottom: 0;
   left: 0;
