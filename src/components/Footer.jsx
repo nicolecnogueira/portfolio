@@ -22,6 +22,7 @@ function Footer() {
     <footer className={styles.footerContainer}>
       <div className={styles.titleWrapper}>
         <h3 className={styles.title}>elsewhere on the internet</h3>
+        <img src={logo2} alt="Logo" className={styles.footerLogo} />
       </div>
 
       <div className={styles.mainContent}>
@@ -54,9 +55,7 @@ function Footer() {
           })}
         </div>
 
-        <div className={styles.logoWrapper}>
-           <img src={logo2} alt="Logo" className={styles.footerLogo} />
-        </div>
+        
       </div>
     </footer>
   );
